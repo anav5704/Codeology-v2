@@ -1,0 +1,56 @@
+---
+const allPosts = await Astro.glob('../pages/blogholder/*.md'); 
+const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
+---
+
+<div id="sidebar" class=" p-3 mt-5 md:mt-0 md:w-1/4 dark:bg-CBlack border-2 border-CWhite rounded-md h-fit lift">
+    <h3 class="font-semibold tracking-wide dark:text-white text-xl ">Socials</h3>
+    <a href="https://www.instagram.com/anav.webdev/"><button class="btn">Instagram |<span id="igfollowercount"></span>Followers</button></a>
+    
+    <br>
+    <br>
+
+    <h3 class="font-semibold tracking-wide dark:text-white text-xl ">Categories</h3>
+    <div class="flex flex-wrap">
+        {tags.map((tag) => (
+            <a href={`/tags/${tag}`}><button class="btn">{tag}</button></a>
+          ))}
+    </div>
+    <br>
+
+    <h3 class="font-semibold tracking-wide dark:text-white text-xl ">Support</h3>
+    <a href="https://www.buymeacoffee.com/anavwebdev"><button class="btn pop">Buy me a coffee ☕</button></a>
+
+    <br>
+    <br>
+
+    <h3 class="font-semibold tracking-wide dark:text-white text-xl ">Anav Himself</h3>
+    <a href="https://www.instagram.com/partially_unblind/"><button class="btn pop">Personal Instagram</button></a>
+    <a href="https://anav.netlify.app/"><button class="btn pop">Personal Portfolio</button></a>
+    <a href="https://github.com/anav5704"><button class="btn pop">GitHub Profile</button></a>
+    <div class="ghost"></div>
+</div>
+
+<script>
+    document.getElementById("igfollowercount").innerHTML = " 2.2k "
+
+    const nav = document.getElementById("nav");
+    const sidebar = document.getElementById ("sidebar");
+
+    window.onscroll = () => {
+        let scrollTop = window.scrollY;
+        let viewpoortheight = window.innerHeight;
+        let contentheight = sidebar.offsetHeight;
+        let navheight = nav.offsetHeight;
+        let big_brain_anav_math_moment = contentheight - viewpoortheight + navheight/2  ;
+
+        if(scrollTop > contentheight - viewpoortheight + navheight ) {
+            sidebar.style.position  = "sticky";
+            sidebar.style.top  = - big_brain_anav_math_moment + "px";
+        }
+        else{
+            sidebar.style.position  = "";
+            sidebar.style.top  = " ";
+        } 
+    }
+</script>

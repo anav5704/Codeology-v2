@@ -1,0 +1,28 @@
+---
+import Base from './Base.astro';
+import Featured from '../components/Featured.astro';
+import '../styles/main.css';
+import { Image } from '@astrojs/image/components';
+const { frontmatter } = Astro.props;
+---
+
+<Base title="Codeology2">
+    <main class="">
+        <div class="md:w-3/4 w-full m-auto">
+            <div class="blogcard">
+                <div class="blur-load" >
+                    <img loading="lazy" class="img" src={frontmatter.image} alt={frontmatter.src} />
+                </div>
+                <div class="details">
+                    <h3>{frontmatter.title}</h3>
+                    <slot />
+                </div>
+            </div>
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script is:inline src="/src/scripts/load.js"></script>
+
+

@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import Featured from '../components/Featured.astro';
+import Blogcard from '../components/Blogcard.astro';
+import '../styles/main.css';
+const allPosts = await Astro.glob("../pages/blogholder/*.md");
+const heading = "Latest Blogs 🚀"
+const { blog } = Astro.props;
+---
+
+<Base title="Codeology2">
+	<main class="w-4/5 m-auto  dark:bg-CBlack rounded-lg flex">
+        <div class="w-3/4">
+            {allPosts.map((blog) => <Blogcard {blog} />)}
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+
+
+

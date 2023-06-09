@@ -1,0 +1,139 @@
+---
+import Base from "../layouts/Base.astro";
+import Featured from "../components/Featured.astro";
+import { Image } from "@astrojs/image/components";
+import "../styles/main.css";
+const heading = "About Us ✌️";
+const image = "img/about.jpg"
+---
+
+<Base title="Codeology2">
+    <main class="">
+        <div class="md:w-3/4 w-full m-auto">
+            <h3 class="header">{heading}</h3>
+            <div class="blogcard">
+                <!-- <div class="overflow-hidden">
+                    <Image
+                        src={image}
+                        height={510}
+                        loading="lazy"
+                        format="avif"
+                        fit="cover"
+                        position="top"
+                        aspectRatio={3/2}
+                    />
+                </div> -->
+                <div class="blur-load" >
+                    <img class="img" src={image} alt="2d illustration of man sittting on a desk with a computer beside him" />
+                </div>
+                <div class="details">
+                    <h3 >Welcome to Codeology.net!</h3>
+                    <p class="dark:text-white">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Omnis consequuntur cumque aperiam tempore iste ad.
+                    </p>
+                </div>
+            </div>
+
+            <div class="blogcard">
+                <div class="details" id="accordion">
+                    <input class="hidden" type="checkbox" name="" id="first" >
+                    <h3>
+                        <label class="cursor-pointer flex justify-between items-center" for="first">Who are we?<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:stroke-CBlue">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                          </svg>
+                          </label>
+                    </h3>
+                    <p id="content" class="dark:text-white max-h-0 overflow-hidden">
+                        We are a team small dedicated to helping beginner level programmers take their first steps into the exciting world of coding. Our aim is to provide easy-to-understand, practical guidance and resources that will help you develop your programming skills and become a confident coder.
+                    </p>
+                </div>
+            </div>
+
+            <div class="blogcard">
+                <div class="details" id="accordion">
+                    <input class="hidden" type="checkbox" name="" id="second" >
+                    <h3>
+                        <label class="cursor-pointer flex justify-between items-center" for="second">What to expect?<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:stroke-CBlue">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                          </svg>
+                          </label>
+                    </h3>
+                    <p id="content" class="dark:text-white max-h-0 overflow-hidden ease duration-300 transition-all">
+                        At Codeology.net, you'll find a wide range of articles, tutorials, and resources on various programming languages, tools, and frameworks. Whether you're interested in web development, mobile app development, or software engineering, we have something for you.
+                    </p>
+                </div>
+            </div>
+
+            <div class="blogcard">
+                <div class="details" id="accordion">
+                    <input class="hidden" type="checkbox" name="" id="third" >
+                    <h3>
+                        <label class="cursor-pointer flex justify-between items-center" for="third">Technologies used<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:stroke-CBlue">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                          </svg>
+                          </label>
+                    </h3>
+                    <p id="content" class="flex items-center tech dark:text-white max-h-0 overflow-hidden ease duration-300 transition-all">
+                       <a href="https://astro.build/">
+                        <svg class="hover:fill-CBlue dark:hover:fill-CBlue dark:fill-white scale-75" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Astro</title><path d="M16.074 16.86c-.72.616-2.157 1.035-3.812 1.035-2.032 0-3.735-.632-4.187-1.483-.161.488-.198 1.046-.198 1.402 0 0-.106 1.75 1.111 2.968 0-.632.513-1.145 1.145-1.145 1.083 0 1.082.945 1.081 1.712v.069c0 1.164.711 2.161 1.723 2.582a2.347 2.347 0 0 1-.236-1.029c0-1.11.652-1.523 1.41-2.003.602-.383 1.272-.807 1.733-1.66a3.129 3.129 0 0 0 .378-1.494 3.14 3.14 0 0 0-.148-.954zM15.551.6c.196.244.296.572.496 1.229l4.368 14.347a18.18 18.18 0 0 0-5.222-1.768L12.35 4.8a.37.37 0 0 0-.71.002l-2.81 9.603a18.175 18.175 0 0 0-5.245 1.771L7.974 1.827c.2-.656.3-.984.497-1.227a1.613 1.613 0 0 1 .654-.484C9.415 0 9.757 0 10.443 0h3.135c.686 0 1.03 0 1.32.117A1.614 1.614 0 0 1 15.55.6z"/></svg>
+                       </a>
+                        <a href="https://tailwindcss.com/">
+                            <svg class="hover:fill-CBlue dark:hover:fill-CBlue dark:fill-white scale-90" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>
+                        </a>
+                       <a href="https://preview-auth-doc--netlify-cms-www.netlify.app/">
+                        <svg class="hover:fill-CBlue dark:hover:fill-CBlue dark:fill-white scale-90" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Netlify</title><path d="M6.49 19.04h-.23L5.13 17.9v-.23l1.73-1.71h1.2l.15.15v1.2L6.5 19.04ZM5.13 6.31V6.1l1.13-1.13h.23L8.2 6.68v1.2l-.15.15h-1.2L5.13 6.31Zm9.96 9.09h-1.65l-.14-.13v-3.83c0-.68-.27-1.2-1.1-1.23-.42 0-.9 0-1.43.02l-.07.08v4.96l-.14.14H8.9l-.13-.14V8.73l.13-.14h3.7a2.6 2.6 0 0 1 2.61 2.6v4.08l-.13.14Zm-8.37-2.44H.14L0 12.82v-1.64l.14-.14h6.58l.14.14v1.64l-.14.14Zm17.14 0h-6.58l-.14-.14v-1.64l.14-.14h6.58l.14.14v1.64l-.14.14ZM11.05 6.55V1.64l.14-.14h1.65l.14.14v4.9l-.14.14h-1.65l-.14-.13Zm0 15.81v-4.9l.14-.14h1.65l.14.13v4.91l-.14.14h-1.65l-.14-.14Z"/></svg>
+                       </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<style>
+     input[type = "checkbox"]:checked ~ #content {
+        max-height: 200px;
+        opacity: 1;
+    }
+
+     input[type = "checkbox"]:checked ~ h3 label svg {
+        rotate: -180deg;
+    }
+    
+    #content {
+        transition: all .3s ease 0s;
+        opacity: 0;
+    }
+
+    h3 label svg {
+        transition: all .3s ease;
+    }
+
+    .tech svg {
+        aspect-ratio: 1/1;
+        height: 50px;
+        margin-right: 15px;
+    }
+
+    .blur-load {
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    }
+
+    .blur-load img{
+    object-fit: cover;
+    height: 100%;
+}
+
+</style>
+
+<script is:inline src="/src/scripts/load.js"></script>
+
+
+

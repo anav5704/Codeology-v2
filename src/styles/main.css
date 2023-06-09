@@ -1,0 +1,234 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+@layer base {
+
+    :root {
+        --CBlue: #38b6ff;
+        --CGray: #282a30;
+        --CBlack: #151515;
+        --CWhite: #ffffff4d;
+        --CGhost: rgba(149, 157, 165, 0.1);
+    }
+
+    @font-face {
+      font-family: Poppins;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/fonts/Poppins-Regular.woff) format("woff");
+    }
+
+    @font-face {
+        font-family: League Spartan;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/LeagueSpartan-Bold.woff) format("woff");
+      }
+      
+      .btn {
+        @apply dark:bg-CGray dark:text-white py-1 px-2 rounded-md border-2 border-CGray hover:border-CBlue mt-2 mr-2;
+      }
+
+      .header {
+        @apply font-semibold  mb-5 border-2 border-CWhite tracking-wide lift dark:text-white text-xl p-3 rounded-md md:w-[calc(100%-20px)];
+      }
+
+     .details h3 {
+        @apply  my-1 tracking-wide dark:text-white text-xl rounded-md font-semibold mt-5 first-of-type:mt-0;
+      }
+
+      .blogcard {
+        @apply  rounded-md overflow-hidden dark:bg-CGray lift mb-5 last-of-type:mb-0 md:w-[calc(100%-20px)];
+      }
+
+      P , li{
+        @apply dark:text-white;
+      }
+
+      main {
+        @apply md:w-4/5 w-11/12 m-auto dark:bg-CBlack rounded-lg md:flex;
+      }
+
+      pre {
+        @apply bg-white dark:bg-CGray p-2 rounded-md my-2 !important;
+      }
+
+       code span {
+        @apply text-black dark:text-white !important;
+      }
+
+      iframe {
+        @apply rounded-md;
+      }
+
+      .joe {
+        @apply text-black dark:text-white caret-CBlue outline-none border-2 dark:border-CGray focus:border-2 dark:focus:border-CBlue focus:border-CBlue w-full p-3  rounded-md mb-3;
+      }
+}
+
+:root {
+    --CBlue: #38b6ff;
+    --CGray: #282a30;
+    --CBlack: #151515;
+    --CWhite: #ffffff4d;
+    --CGhost: rgba(149, 157, 165, 0.1);
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;  
+    transition: all .15s ease;
+}
+
+.dark {
+    background-color: var(--CBlack);
+}
+
+h2 {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.lift {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.dark .lift{
+    box-shadow: rgba(0, 0, 0, 0) 0px 8px 24px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:var(--CGray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:var(--CBlue);
+}
+  
+  main {
+      margin-top:90px;
+    }
+    
+.content h2 {
+   letter-spacing: 1px;
+   margin-top: 20px !important;
+}
+
+.content a, .details a {
+    color: var(--CBlue);
+}
+
+pre {
+    box-sizing: border-box;
+    border: 2px solid var(--CBlue);
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.details {
+    padding: 10px;
+}
+
+
+.blogcard .details ul li::marker {
+    content: '👉 ';
+}
+
+.blogcard .details ul {
+    padding-left: 30px;
+    
+}  
+
+.dark .joe  {
+    background-color: var(--CGhost);
+    transition: all .3s ease;
+}
+
+.blur-load {
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3/1;
+}
+
+.dark .blur-load::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    animation: darkLoad .7s ease alternate infinite;
+}
+
+.blur-load::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    animation: lightLoad .7s ease alternate infinite;
+}
+
+.blur-load.loaded::before {
+    content: none;
+}
+
+.blur-load.loaded > img {
+    opacity: 1;
+}
+
+.blur-load.loaded {
+    filter: none;
+    
+}
+
+.blur-load.loaded .overlay {
+    opacity: 0;
+}
+
+.blur-load > img {
+   opacity: 0;
+   transition: opacity .3s ease;
+   object-position: center;
+   object-fit: cover;
+   width: 100%;
+   aspect-ratio: 3/1;
+}
+
+@keyframes lightLoad {
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    0% {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        background-color: rgb(0, 0, 0, 0);
+    }
+}
+
+@keyframes  darkLoad{
+    0% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    0% {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    100% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}

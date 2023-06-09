@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import Featured from '../../components/Featured.astro';
+import Blogcard from '../../components/Blogcard.astro';
+import '../../styles/main.css';
+
+export async function getStaticPaths() {
+    const allPosts = await Astro.glob('../blogholder/*.md'); 
+  return [
+    { params: { tag: "post" }, props: {posts: allPosts} },
+    { params: { tag: "html" }, props: {posts: allPosts}},
+    { params: { tag: "css" }, props: {posts: allPosts}},
+    { params: { tag: "js" }, props: {posts: allPosts}},
+    { params: { tag: "programming" }, props: {posts: allPosts}},
+    { params: { tag: "webdev" }, props: {posts: allPosts}},
+    { params: { tag: "study" }, props: {posts: allPosts}},
+    { params: { tag: "uiux" }, props: {posts: allPosts}},
+    { params: { tag: "latest" }, props: {posts: allPosts}},
+    ]
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+const filteredPosts = posts.filter((post) => post.frontmatter.tags.includes(tag));
+---
+
+<Base title={`${tag} Blogs | Codeology`}>
+	<main>
+        <div class="md:w-3/4 w-full m-auto">
+            <h3 class="header">{tag} Blogs</h3>
+            {filteredPosts.map((blog) => <Blogcard {blog} />)}
+        </div>
+        <Featured />
+    </main>
+</Base>
