@@ -9,6 +9,7 @@ module.exports = {
                 CGray: '#282a30',
                 CBlack: '#151515',
                 CWhite: '#ffffff4d',
+                CCool: '#DFE7F2',
             },
             height: {
                 "10v": "10vh",

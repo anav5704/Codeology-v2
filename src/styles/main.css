@@ -10,6 +10,7 @@
         --CBlack: #151515;
         --CWhite: #ffffff4d;
         --CGhost: rgba(149, 157, 165, 0.1);
+        --CCool: #DFE7F2;
     }
 
     @font-face {
@@ -27,7 +28,7 @@
       }
       
       .btn {
-        @apply dark:bg-CGray dark:text-white py-1 px-2 rounded-md border-2 border-CGray hover:border-CBlue mt-2 mr-2;
+        @apply dark:bg-CGray dark:text-white py-1 px-2 rounded-md border-2 bg-white  dark:border-CGray hover:border-CBlue mt-2 mr-2;
       }
 
       .header {
@@ -73,6 +74,7 @@
     --CBlack: #151515;
     --CWhite: #ffffff4d;
     --CGhost: rgba(149, 157, 165, 0.1);
+    --CCool: #DFE7F2;
 }
 
 
@@ -82,7 +84,12 @@
     transition: all .15s ease;
 }
 
-.dark {
+ body {
+    background-color: var(--CCool);
+    
+}
+
+.dark body {
     background-color: var(--CBlack);
 }
 
@@ -153,6 +160,10 @@ pre {
     padding-left: 30px;
     
 }  
+
+.blogcard {
+    background-color: white;
+}
 
 .dark .joe  {
     background-color: var(--CGhost);
