@@ -1,29 +1,41 @@
-<nav id="nav" class="border-2 dark:border-CGray my-5 rounded-md left-1/2 -translate-x-1/2 w-11/12 md:w-4/5 runded-md z-10 fixed  top-0  bg-white dark:bg-CGray flex items-center justify-between lift">
-  <div class="ml-5 text-xl text-CBlue font-semibold p-3">
-    <a href="/" ><h3>Codeology</h3></a>
+<nav id="nav" class=" md:flex border-white dark:border-CGray my-5 rounded-md left-1/2 -translate-x-1/2 w-11/12 md:w-4/5 runded-md z-10 fixed  top-0  bg-white dark:bg-CGray items-center justify-between lift">
+  <div class="text-xl  p-3 flex items-center justify-between">
+    <a href="/" class="ml-5 text-CBlue font-semibold" ><h3>Codeology</h3></a>
+    <div id="toggle" class="md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6  cursor-pointer dark:stroke-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+          </svg>  
+      </div>
   </div>
-<div  class="  items-center flex items center dark:text-white">
-    <ul class="hidden md:flex">
-        <li class="mr-8 p-1"><a href="/">Home</a></li>
-        <li class="mr-8 p-1"><a href="/tags/latest">Blogs</a></li>
-        <li class="mr-8 p-1"><a href="/projects">Projects</a></li>
-        <li class="mr-8 p-1"><a href="/quiz">Quizzes</a></li>
-        <li class="mr-8 p-1"><a href="/about">About</a></li>
+<div class="border-2 border-CBlue md:border-none dark:text-white md:bg-transparent dark:md:bg-transparent flex pt-2 md:pt-0 flex-column absolute md:opacity-100 md:relative w-full md:w-auto mt-4 md:mt-0 bg-white dark:bg-CGray text-center opacity-0 rounded-md overflow-hidden" id="menu">
+    <ul class=" md:flex m-auto ">
+        <li class="mb-2 md:mb-0 md:mr-8 p-1"><a href="/">Home</a></li>
+        <li class="mb-2 md:mb-0 md:mr-8 p-1"><a href="/tags/latest">Blogs</a></li>
+        <li class="mb-2 md:mb-0 md:mr-8 p-1"><a href="/projects">Projects</a></li>
+        <li class="mb-2 md:mb-0 md:mr-8 p-1"><a href="/quiz">Quizzes</a></li>
+        <li class="mb-2 md:mb-0 md:mr-8 p-1"><a href="/about">About</a></li>
+        <li class=" md:mb-0 md:mr-8 p-1 mt-5 mb-5 md:mt-0 cursor-pointer" id="mode">
+            <svg id="dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+            </svg>
+            <svg id="light" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-1/2 left-1/2 hidden  -translate-x-1/2 -translate-y-1/2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+         </li>
       </ul>
-      <div class="mr-8 p-1 relative cursor-pointer" id="mode">
-        <svg id="dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
-        </svg>
-        <svg id="light" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-      </svg>
-     </div>
 </div>
 </nav>
 
 <script>
 
 const nav = document.getElementById("nav");
+const toggle = document.getElementById("toggle");
+const menu = document.getElementById("menu");
+
+toggle.addEventListener("click", () => {
+ menu.classList.toggle("open")
+})
+
 let LastScrollY = window.scrollY;
 
 window.addEventListener ("scroll", () => {
@@ -50,15 +62,15 @@ window.addEventListener ("scroll", () => {
 </script>
 
 <style>
+
+    .open {
+        opacity: 1 !important;
+    }
+
      .glass {
         background: rgba(255, 255, 255, 0.1) !important;
         backdrop-filter: blur(7px);
         -webkit-backdrop-filter: blur(7px);
-        border: 2px solid var(--CWhite) !important;
-    }
-
-    nav {
-        transition: all .3s ease;
     }
     
     ul li {
@@ -83,7 +95,7 @@ window.addEventListener ("scroll", () => {
         transform: scaleX(1);
     }
 
-    #mode svg:hover{
+    #mode svg:hover, #toggle svg:hover{
        stroke: var(--CBlue);
     }
     
