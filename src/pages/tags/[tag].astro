@@ -7,15 +7,15 @@ import '../../styles/main.css';
 export async function getStaticPaths() {
     const allPosts = await Astro.glob('../blogholder/*.md'); 
   return [
-    { params: { tag: "post" }, props: {posts: allPosts} },
-    { params: { tag: "html" }, props: {posts: allPosts}},
-    { params: { tag: "css" }, props: {posts: allPosts}},
-    { params: { tag: "js" }, props: {posts: allPosts}},
-    { params: { tag: "programming" }, props: {posts: allPosts}},
-    { params: { tag: "webdev" }, props: {posts: allPosts}},
-    { params: { tag: "study" }, props: {posts: allPosts}},
-    { params: { tag: "uiux" }, props: {posts: allPosts}},
-    { params: { tag: "latest" }, props: {posts: allPosts}},
+    { params: { tag: "All" }, props: {posts: allPosts} },
+    { params: { tag: "HTML" }, props: {posts: allPosts}},
+    { params: { tag: "CSS" }, props: {posts: allPosts}},
+    { params: { tag: "JavaScript" }, props: {posts: allPosts}},
+    { params: { tag: "Programming" }, props: {posts: allPosts}},
+    { params: { tag: "Webdev" }, props: {posts: allPosts}},
+    { params: { tag: "Study" }, props: {posts: allPosts}},
+    { params: { tag: "UIUX" }, props: {posts: allPosts}},
+    { params: { tag: "Latest" }, props: {posts: allPosts}},
     ]
 }
 

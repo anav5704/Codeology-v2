@@ -5,8 +5,8 @@ author: "Anav "
 date: Apr 4, 2023
 time: 2.5  mins
 tags:
-  - post
-  - programming
+  - All
+  - Programming
 layout: ../../layouts/blog.astro
 image: /img/1.jpg
 alt: rectangular image with text on the left that reads  Basic computer specs for beginner level programming and an image of a intel core i7 cpu on the right

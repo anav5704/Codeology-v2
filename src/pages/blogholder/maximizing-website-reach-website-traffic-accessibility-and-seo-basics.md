@@ -5,8 +5,8 @@ author: Anav
 date: May 10, 2023
 time: 4 mins
 tags:
-  - post
-  - webdev
+  - All
+  - Webdev
 layout: ../../layouts/blog.astro
 image: /img/16.jpg
 alt: traffic light

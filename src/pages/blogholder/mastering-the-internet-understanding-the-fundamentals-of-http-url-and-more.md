@@ -5,8 +5,8 @@ author: Anav
 date: May 2, 2023
 time: 4.5 mins
 tags:
-  - post
-  - webdev
+  - All
+  - Webdev
 layout: ../../layouts/blog.astro
 image: /img/14.jpg
 alt: firefox

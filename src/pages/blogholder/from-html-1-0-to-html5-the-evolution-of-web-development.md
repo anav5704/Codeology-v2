@@ -5,9 +5,9 @@ author: Anav
 date: May 19, 2023
 time: 5 mins
 tags:
-  - post
-  - webdev
-  - html
+  - All
+  - HTML
+  - Webdev
 layout: ../../layouts/blog.astro
 image: /img/18.jpg
 alt: html 6

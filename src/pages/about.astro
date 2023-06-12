@@ -1,10 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import Featured from "../components/Featured.astro";
-import { Image } from "@astrojs/image/components";
 import "../styles/main.css";
 const heading = "About Us ✌️";
-const image = "img/about.jpg"
 ---
 
 <Base title="Codeology2">
@@ -24,7 +22,7 @@ const image = "img/about.jpg"
                     />
                 </div> -->
                 <div class="blur-load" >
-                    <img class="img" src={image} alt="2d illustration of man sittting on a desk with a computer beside him" />
+                    <img class="img" src="img/about.jpg" alt="2d illustration of man sittting on a desk with a computer beside him" />
                 </div>
                 <div class="details">
                     <h3 >Welcome to Codeology.net!</h3>
@@ -93,7 +91,7 @@ const image = "img/about.jpg"
     </main>
 </Base>
 
-<style>
+<style is:inline>
      input[type = "checkbox"]:checked ~ #content {
         max-height: 200px;
         opacity: 1;

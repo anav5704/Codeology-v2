@@ -5,10 +5,10 @@ author: Anav
 date: May 27, 2023
 time: 3.5 mins
 tags:
-  - post
-  - html
-  - webdev
-  - latest
+  - All
+  - HTML
+  - Latest
+  - Webdev
 layout: ../../layouts/blog.astro
 image: /img/19.jpg
 alt: html

@@ -5,11 +5,11 @@ author: Anav
 date: Apr 10, 2023
 time: 3 mins
 tags:
-  - post
-  - html
-  - css
-  - webdev
-  - study
+  - All
+  - CSS
+  - HTML
+  - Study
+  - Webdev
 layout: ../../layouts/blog.astro
 image: /img/3.jpg
 alt: rectangular image with text on the left that reads top 5 Resources to learn  frontend web and an image of the html and css logo on the right

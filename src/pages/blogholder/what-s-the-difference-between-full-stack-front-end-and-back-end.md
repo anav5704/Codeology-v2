@@ -5,8 +5,8 @@ author: Anav
 date: May 6, 2023
 time: 3.5 mins
 tags:
-  - post
-  - webdev
+  - All
+  - Webdev
 layout: ../../layouts/blog.astro
 image: /img/15.jpg
 alt: Angular

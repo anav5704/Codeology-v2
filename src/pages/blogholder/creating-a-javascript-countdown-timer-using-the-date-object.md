@@ -5,8 +5,8 @@ author: Anav
 date: Apr 17, 2023
 time: 3.5 mins
 tags:
-  - post
-  - js
+  - All
+  - JavaScript
 layout: ../../layouts/blog.astro
 image: /img/4.jpg
 alt: rectangular image with text on the left that reads  JavaScript Countdown Timer and an image of a simple  JavaScript Countdown Timer on the right

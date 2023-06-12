@@ -5,9 +5,9 @@ author: Anav
 date: Apr 6, 2023
 time: 3 mins
 tags:
-  - post
-  - study
-  - programming
+  - All
+  - Programming
+  - Study
 layout: ../../layouts/blog.astro
 image: /img/2.jpg
 alt: rectangular image with text on the left that reads 5 amazing tips that can help you learn coding faster! and an image of a stack of books on the right at an isometric angle

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "datetime"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Time",
+          "name": "time",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "alt text",
+          "name": "alt",
+          "type": "string"
+        },
+        {
+          "title": "Meta Keywords",
+          "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "Meta Description",
+          "name": "pageDescription",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "astro",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.taxonomy.dateFormat": "PP",
+  "frontMatter.preview.host": "http://localhost:3000",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/src/pages/blogholder",
+      "title": "blogholder"
+    },
+    {
+      "title": "img",
+      "path": "[[workspace]]/public/img"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "All",
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "Latest",
+    "Programming",
+    "Study",
+    "UIUX",
+    "Webdev"
+  ],
+  "frontMatter.taxonomy.categories": []
+}
