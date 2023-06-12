@@ -28,7 +28,7 @@
       }
       
       .btn {
-        @apply dark:bg-CGray dark:text-white py-1 px-2 rounded-md border-2 bg-white  dark:border-CGray hover:border-CBlue dark:hover:border-CBlue mt-2 mr-2;
+        @apply dark:bg-CGray dark:text-white py-1 px-2 rounded-md border-2 border-white bg-white  dark:border-CGray hover:border-CBlue dark:hover:border-CBlue mt-2 mr-2;
       }
 
       .btnlG {

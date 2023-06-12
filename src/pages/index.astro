@@ -1,19 +1,20 @@
 ---
 import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
 import '../styles/main.css';
-import { Image } from '@astrojs/image/components';
 ---
 
 <Base title="Codeology2">
-	<main class="h-100v m-auto w-4/5 lex items-center justify-center flex lift dark:bg-CGray rounded-lg">
-		<h1 class="tracking-wide text-xl p-5 dark:text-white">Hero</h1>
-	</main>
+	<main class="block ">
+        <!-- <div class="">
+            <div class="h-50v bg-white lift dark:bg-CGray rounded-md text-black dark:text-white p-5">                  
+                <h1 class="text-center text-3xl">Master Frontend Development with our <span class="text-CBlue">Interactive</span> Content</h1>
+                <p class="text-center mt-5 w-4/5 mx-auto">Explore the amazing world of web development and programming with our interactive Projects and fun quizzes! Stay ahead of the curve and expand your skills by being a part of our community.</p>
+            </div> -->
+            <Hero />
+        </div>
 </Base>
 
-<style>
-    main {
-        margin-top:calc(10vh + 40px) !important;
-    }
-</style>
+
 
 
