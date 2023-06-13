@@ -1,9 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import Featured from "../components/Featured.astro";
-import { Image } from "@astrojs/image/components";
 import "../styles/main.css";
-const heading = "Message Sent 📨";
+const heading = "Quizzes ✅";
 ---
 
 <Base title="Codeology2">
@@ -11,25 +10,15 @@ const heading = "Message Sent 📨";
         <div class="md:w-3/4 w-full ">
             <h3 class="header">{heading}</h3>
             <div class="blogcard">
-                <!-- <div class="overflow-hidden">
-                    <Image
-                        src={image}
-                        height={510}
-                        loading="lazy"
-                        format="avif"
-                        fit="cover"
-                        position="top"
-                        aspectRatio={3/2}
-                    />
-                </div> -->
                 <div class="blur-load" >
-                    <img class="img" src= "/img/sent.jpg" alt="2d illustration of man sittting on a desk with a computer beside him" />
+                    <img class="img" src= "/img/1.jpg" alt="2d illustration of man sittting on a desk with a computer beside him" />
                 </div>
                 <div class="details">
-                    <h3 >Your message was succesfully sent!</h3>
+                    <h3 >HTML Quiz</h3>
                     <p class="dark:text-white">
                         We appreciate you contacting us and we will get back to you as soon as possible. In the mean time, feel free to explore this website.
                     </p>
+                    <a href=""><button class="btnlG">Take Quiz</button></a>
                 </div>
             </div>
         </div>
@@ -62,7 +51,7 @@ const heading = "Message Sent 📨";
         margin-right: 15px;
     }
 
-
+/* 
     .blur-load {
     background-size: cover;
     background-position:center;
@@ -74,7 +63,7 @@ const heading = "Message Sent 📨";
     .blur-load > img{
     object-fit: cover;
     height: 100%;
-}
+} */
 
 
 </style>

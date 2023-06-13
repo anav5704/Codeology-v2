@@ -1,0 +1,83 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "HTML Quiz";
+
+---
+
+<Base title="Codeology2">
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading}</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. What is the correct HTML tag for inserting a line break?</p>
+                    <button id="ans">&lt;br&gt;</button>
+                    <button>&lt;line&gt;</button>
+                    <button>&lt;break&gt;</button>
+                    <button>&lt;lb&gt;</button>
+    
+                    <p class="question">2. What is the correct HTML tag for creating a hyperlink?</p>
+                    <button>&lt;link&gt;</button>
+                    <button id="ans">&lt;a&gt;</button>
+                    <button>&lt;href&gt;</button>
+                    <button>&lt;hyper&gt;</button>
+    
+                    <p class="question">3. What is the correct HTML tag for creating a heading?</p>
+                    <button>&lt;head&gt;</button>
+                    <button id="ans">&lt;h1&gt;</button>
+                    <button>&lt;title&gt;</button>
+                    <button>&lt;header&gt;</button>
+    
+                    <p class="question">4. What is the correct HTML tag for adding an image?</p>
+                    <button id="ans">&lt;img&gt;</button>
+                    <button>&lt;picture&gt;</button>
+                    <button>&lt;image&gt;</button>
+                    <button>&lt;photo&gt;</button>
+    
+                    <p class="question">5. Which HTML tag is used to define a list of items with bullets?</p>
+                    <button>&lt;list&gt;</button>
+                    <button>&lt;li&gt;</button>
+                    <button>&lt;ol&gt;</button>
+                    <button id="ans">&lt;ul&gt;</button>
+    
+                    <p class="question">6. What is the correct HTML tag for adding a table?</p>
+                    <button id="ans">&lt;table&gt;</button>
+                    <button>&lt;grid&gt;</button>
+                    <button>&lt;tab&gt;</button>
+                    <button>&lt;spreadsheet&gt;</button>
+    
+                    <p class="question">7. What is the correct HTML tag for adding a paragraph?</p>
+                    <button>&lt;para&gt;</button>
+                    <button id="ans">&lt;p&gt;</button>
+                    <button>&lt;line&gt;</button>
+                    <button>&lt;text&gt;</button>
+    
+                    <p class="question">8. What is the correct HTML tag for adding a form?</p>
+                    <button id="ans">&lt;form&gt;</button>
+                    <button>&lt;input&gt;</button>
+                    <button>&lt;field&gt;</button>
+                    <button>&lt;entry&gt;</button>
+    
+                    <p class="question">9. What is the correct HTML tag for adding a button?</p>
+                    <button>&lt;btn&gt;</button>
+                    <button id="ans">&lt;button&gt;</button>
+                    <button>&lt;click&gt;</button>
+                    <button>&lt;press&gt;</button>
+    
+                    <p class="question">10. What is the correct HTML tag for creating a comment?</p>
+                    <button id="ans">&lt;!--comment--&gt;</button>
+                    <button>&lt;comment&gt;</button>
+                    <button>&lt;note&gt;</button>
+                    <button >&lt;message&gt;</button>            
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+
+

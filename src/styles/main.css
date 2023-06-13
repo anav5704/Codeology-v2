@@ -27,8 +27,12 @@
         src: url(/fonts/LeagueSpartan-Bold.woff) format("woff");
       }
       
-      .btn {
+      .btn{
         @apply dark:bg-CGray dark:text-white py-1 px-2 rounded-md border-2 border-white bg-white  dark:border-CGray hover:border-CBlue dark:hover:border-CBlue mt-2 mr-2;
+      }
+
+      .quiz button{
+        @apply dark:border-CWhite dark:bg-CGray dark:text-white py-1 px-2 rounded-md border-2  bg-white hover:border-CBlue dark:hover:border-CBlue mt-2 mr-2;
       }
 
       .btnlG {
@@ -52,7 +56,7 @@
       }
 
       main {
-        @apply md:w-4/5 w-11/12 m-auto dark:bg-CBlack rounded-lg md:flex;
+        @apply md:w-4/5 w-11/12 m-auto dark:bg-CBlack rounded-lg md:flex  place-items-start;
       }
 
       pre {
@@ -174,6 +178,14 @@ pre {
 
 .blogcard {
     background-color: white;
+}
+
+.quiz button {
+    border-color: var(--CCool);
+}
+
+.question:not(:first-of-type) {
+    margin-top: 20px;
 }
 
 .dark .joe  {
