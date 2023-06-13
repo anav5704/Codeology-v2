@@ -1,0 +1,77 @@
+---
+import Base from "../layouts/Base.astro";
+import Featured from "../components/Featured.astro";
+import { Image } from "@astrojs/image/components";
+import "../styles/main.css";
+const heading = "A Gift from Codeology 🎁";
+const image = "/img/gift.jpg"
+---
+
+<Base title="Codeology2">
+    <main class="">
+        <div class="md:w-3/4 w-full m-auto">
+            <h3 class="header">{heading}</h3>
+            <div class="blogcard">
+                <!-- <div class="overflow-hidden">
+                    <Image
+                        src={image}
+                        height={510}
+                        loading="lazy"
+                        format="avif"
+                        fit="cover"
+                        position="top"
+                        aspectRatio={3/2}
+                    />
+                </div> -->
+                <div class="blur-load" >
+                    <img class="img" src={image} alt="2d illustration of man sittting on a desk with a computer beside him" />
+                </div>
+                <div class="details">
+                    <h3 >Design Inspiration kit</h3>
+                    <p class="dark:text-white">
+                        18 Gradients + 15 Fonts + 7 Hero sections. For more inspiration, feel free to check out my <a href="https://www.pinterest.nz/AnavWebdev/">pintrest</a>.
+                    </p>                
+                    <a href="public/freebie.zip" download><button class="btnlG">Download Now</button></a>
+                    </div>
+            </div>
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<style is:inline>
+
+    .blur-load {
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    }
+
+    .blur-load img{
+    object-fit: cover;
+    height: 100%;
+}
+
+</style>
+
+<script is:inline>
+    const blurDiv = document.querySelector(".blur-load")
+    const img = blurDiv.querySelector("img")
+
+    function loaded() {
+        blurDiv.classList.add("loaded")
+    }
+
+    if (img.complete) {
+        loaded();
+    }
+
+    else {
+        img.addEventListener("load" ,loaded)
+    }
+</script>
+
+
+

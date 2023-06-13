@@ -36,7 +36,7 @@
       }
 
       .header {
-        @apply font-semibold  mb-5 border-2 border-CWhite tracking-wide lift dark:text-white text-xl p-3 rounded-md md:w-[calc(100%-20px)];
+        @apply font-extrabold mb-5 border-2 border-CWhite tracking-wide lift dark:text-white text-xl p-3 rounded-md md:w-[calc(100%-20px)];
       }
 
      .details h3 {
@@ -83,6 +83,7 @@
 
 
 * {
+    -webkit-tap-highlight-color: transparent;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;  
     transition: all .15s ease;
@@ -97,7 +98,7 @@
     background-color: var(--CBlack);
 }
 
-h2 {
+h1 {
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -109,6 +110,12 @@ h2 {
     box-shadow: rgba(0, 0, 0, 0) 0px 8px 24px;
 }
 
+
+.glass {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
 
 ::-webkit-scrollbar {
     width: 10px;

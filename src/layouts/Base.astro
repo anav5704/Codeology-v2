@@ -1,6 +1,7 @@
 ---
 const { title } = Astro.props;
 import Nav from '../components/Nav.astro';
+import Card from '../components/Card.astro';
 import Footer from '../components/Footer.astro';
 ---
 
@@ -15,6 +16,7 @@ import Footer from '../components/Footer.astro';
 		<title>{title}</title>
 	</head>
 	<body>
+        <Card />
         <Nav />
 		<slot />
         <Footer />
