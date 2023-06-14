@@ -27,9 +27,9 @@ import Footer from '../components/Footer.astro';
         <Footer />
         <script is:inline>
 
-            if (sessionStorage.getItem("dark")){
-                document.documentElement.classList.add("dark");
+            if (sessionStorage.theme === 'dark' || (!('theme' in sessionStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {                document.documentElement.classList.add("dark");
                 document.getElementById("dark").style.display = "block"
+                sessionStorage.setItem("theme", "dark");
             }
 
             else {
@@ -38,7 +38,7 @@ import Footer from '../components/Footer.astro';
             }
 
             document.getElementById("mode").addEventListener("click", () => {    
-                if (sessionStorage.getItem("dark")){
+                if (sessionStorage.theme === 'dark'){
                     lighten()
                 }
                 else {
@@ -48,20 +48,18 @@ import Footer from '../components/Footer.astro';
 
             function darken() {
                 document.documentElement.classList.toggle("dark");
-                sessionStorage.setItem("dark", "true");
-                sessionStorage.removeItem("light");
-                console.log("Dark mode");
+                sessionStorage.setItem("theme", "dark");
                 document.getElementById("dark").style.display = "block"
                 document.getElementById("light").style.display = ""
+                console.log("Dark mode");
             }
 
             function lighten() {
                 document.documentElement.classList.toggle("dark");
-                sessionStorage.setItem("light", true);
-                sessionStorage.removeItem("dark");
-                console.log("Light mode");
+                sessionStorage.setItem("theme", "light");
                 document.getElementById("light").style.display = "block"
                 document.getElementById("dark").style.display = ""
+                console.log("Light mode");
             }
             
 
