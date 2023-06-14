@@ -7,7 +7,7 @@
           </svg>  
       </div>
   </div>
-<div class="border-2 border-CBlue md:border-none dark:text-white md:bg-transparent dark:md:bg-transparent flex pt-2 md:pt-0 flex-column absolute md:opacity-100 md:relative w-full md:w-auto mt-4 md:mt-0 bg-white dark:bg-CGray text-center opacity-0 rounded-md overflow-hidden" id="menu">
+<div class="pointer-events-none md:pointer-events-auto border-2 border-CBlue md:border-none dark:text-white md:bg-transparent dark:md:bg-transparent flex pt-2 md:pt-0 flex-column absolute md:opacity-100 md:relative w-full md:w-auto mt-4 md:mt-0 bg-white dark:bg-CGray text-center opacity-0 rounded-md overflow-hidden" id="menu">
     <ul class=" md:flex m-auto ">
         <li class="mb-2 md:mb-0 md:mr-8 p-1"><a href="/">Home</a></li>
         <li class="mb-2 md:mb-0 md:mr-8 p-1"><a href="/tags/Latest">Blogs</a></li>
@@ -65,6 +65,7 @@ window.addEventListener ("scroll", () => {
 
     .open {
         opacity: 1 !important;
+        pointer-events: all !important;
     }
     
     ul li {
