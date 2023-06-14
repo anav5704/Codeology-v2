@@ -1,4 +1,4 @@
-if (sessionStorage.getItem("dark")) {
+if (sessionStorage.getItem("dark") || window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.documentElement.classList.add("dark");
     document.getElementById("dark").style.display = "block"
 }
@@ -11,6 +11,7 @@ else {
 document.getElementById("mode").addEventListener("click", () => {    
     if (sessionStorage.getItem("dark")){
         lighten()
+        localStorage.theme = 'light'
     }
     else {
         darken()
