@@ -6,10 +6,14 @@ const heading = "HTML Quiz";
 
 ---
 
-<Base title="Codeology2">
+<Base 
+title={`${heading} | Codeology`}
+keywords="HTML quiz, interactive quiz, web development, coding quiz, HTML5, CSS, JavaScript, web design, frontend development, online quiz"
+description="Test your HTML knowledge with this interactive quiz! Challenge yourself with a series of questions designed to assess your understanding of HTML5, CSS, and JavaScript. This web development quiz covers a wide range of topics, including web design principles, frontend development techniques, and coding best practices. Put your skills to the test and see how well you fare in this engaging online quiz. Take the HTML quiz now and sharpen your coding expertise!"
+>
     <main class="">
         <div class="md:w-3/4 w-full ">
-            <h3 class="header">{heading}</h3>
+            <h3 class="header">{heading} 🦴</h3>
             <div class="blogcard" id="quiz1">
                 <div class="details quiz">
                     <p class="question">1. What is the correct HTML tag for inserting a line break?</p>
@@ -73,11 +77,65 @@ const heading = "HTML Quiz";
                     <button >&lt;message&gt;</button>            
                 </div>
             </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
 
         </div>
         <Featured />
     </main>
 </Base>
+
+<script>
+
+    let score1 = 0; // score for quiz 1
+    const incorrectPenalty = 1;
+    const quiz1Elements = document.querySelectorAll("#quiz1"); // select elements for quiz 1
+    const comment = document.getElementById("comment")
+    const score = document.getElementById("score")
+
+    quiz1Elements.forEach(function(parentElement) { // loop through quiz 1 elements
+  const allChildren = parentElement.querySelectorAll("button");
+
+  allChildren.forEach(function (child) {
+    child.addEventListener('click', function() {
+      if (child.hasAttribute('id') ) {
+        child.style.border = "2px solid lime";
+        score1 += 1; // increment score for quiz 1 if answer is correct
+        child.disabled = true
+    } 
+    
+    else {
+        child.style.border = "2px solid red";
+        score1 = Math.max(0, score1 - incorrectPenalty);
+        child.disabled = true
+      }
+
+      if ( score1 == 0) {
+        comment.innerHTML = "Rome wasn't built in a day 🗿, better luck next time my friend.";
+      }
+
+      else if (score1 < 0 || score1 <= 4){
+        comment.innerHTML = "There is still room for improvement 👍. Keep pushing!";
+      }
+
+      else if (score1 < 5 || score1 <= 9){
+        comment.innerHTML = "You performed really well 👌. Continue learning more!";
+      }
+
+      else {
+            comment.innerHTML = "Perfectoin 🤌, as expected from  a Codeology.net user!";
+      }
+      score.innerHTML = score1.toString();
+      console.log("Score for Quiz 1: " + score1); // log current score for quiz 1
+    });
+  });
+});
+
+</script>
 
 
 

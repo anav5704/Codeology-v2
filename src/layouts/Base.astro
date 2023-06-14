@@ -1,5 +1,7 @@
 ---
 const { title } = Astro.props;
+const { keywords } = Astro.props;
+const { description } = Astro.props;
 import Nav from '../components/Nav.astro';
 import Card from '../components/Card.astro';
 import Footer from '../components/Footer.astro';
@@ -11,6 +13,9 @@ import Footer from '../components/Footer.astro';
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description">
 		<meta name="viewport" content="width=device-width" />
+        <meta property="og:image" content="/img/favicon.png">
+        <meta name="description" content={description}>
+        <meta name="keywords" content={keywords}>
 		<link rel="icon" type="image/svg+xml" href="/img/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>

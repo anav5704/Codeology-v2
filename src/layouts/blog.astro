@@ -6,7 +6,11 @@ import { Image } from '@astrojs/image/components';
 const { frontmatter } = Astro.props;
 ---
 
-<Base title="Codeology2">
+<Base 
+title={frontmatter.title}
+keywords={frontmatter.keywords}
+description={frontmatter.pageDescription}
+>
     <main class="">
         <div class="md:w-3/4 w-full">
             <div class="blogcard">

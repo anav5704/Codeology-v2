@@ -1,0 +1,132 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "JavaScript Quiz";
+
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="JavaScript quiz, interactive quiz, web development, programming quiz, JS fundamentals, DOM manipulation, functions, loops, frontend development, online quiz"
+description="Put your JavaScript knowledge to the test with this interactive quiz! Explore a range of questions designed to assess your understanding of JavaScript fundamentals, DOM manipulation, functions, loops, and more. Whether you're a beginner or an experienced developer, this programming quiz offers an opportunity to challenge your skills and expand your JavaScript expertise. Join this engaging online quiz to enhance your frontend development abilities. Take the JavaScript quiz now and sharpen your programming prowess!"
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} ⚡</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. What is JavaScript?</p>
+                    <button id="ans">A programming language</button>
+                    <button>A type of coffee</button>
+                    <button>A type of cereal</button>
+                    <button>A brand of computer</button>
+                    <p class="question">2. What keyword is used to declare a variable in JavaScript?</p>
+                    <button>vari</button>
+                    <button id="ans">var</button>
+                    <button>variable</button>
+                    <button>declare</button>
+                    <p class="question">3. What type of language is JavaScript?</p>
+                    <button>Compiled</button>
+                    <button id="ans">Interpreted</button>
+                    <button>Assembly</button>
+                    <button>Machine</button>
+                    <p class="question">4. What does the "DOM" stand for in JavaScript?</p>
+                    <button id="ans">Document Object Model</button>
+                    <button>Data Object Model</button>
+                    <button>Desktop Object Model</button>
+                    <button>Domain Object Model</button>
+                    <p class="question">5. What is the result of the following code: "5" + 3?</p>
+                    <button>"8"</button>
+                    <button>8</button>
+                    <button id="ans">53</button>
+                    <button>NaN</button>
+                    <p class="question">6. What does the typeof operator return in JavaScript?</p>
+                    <button id="ans">The data type of its operand</button>
+                    <button>A boolean value</button>
+                    <button>A string value</button>
+                    <button>An object</button>
+                    <p class="question">7. What does the keyword "this" refer to in JavaScript?</p>
+                    <button>The current function</button>
+                    <button>The parent object</button>
+                    <button id="ans">The global object</button>
+                    <button>The current element</button>
+                    <p class="question">8. What does the "NaN" value represent in JavaScript?</p>
+                    <button id="ans">Not a Number</button>
+                    <button>Null or Undefined</button>
+                    <button>Boolean true value</button>
+                    <button>A number</button>
+                    <p class="question">9. Which operator is used to concatenate strings in JavaScript?</p>
+                    <button id="ans">+</button>
+                    <button>*</button>
+                    <button>/</button>
+                    <button>-</button>
+                    <p class="question">10. What is the correct syntax to add an event listener in JavaScript?</p>
+                    <button id="ans">addEventListener(event, function)</button>
+                    <button>addEvent(event, function)</button>
+                    <button>function.addEventListener(event)</button>
+                    <button>function.addEvent(event)</button>
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script>
+
+    let score1 = 0; // score for quiz 1
+    const incorrectPenalty = 1;
+    const quiz1Elements = document.querySelectorAll("#quiz1"); // select elements for quiz 1
+    const comment = document.getElementById("comment")
+    const score = document.getElementById("score")
+
+    quiz1Elements.forEach(function(parentElement) { // loop through quiz 1 elements
+  const allChildren = parentElement.querySelectorAll("button");
+
+  allChildren.forEach(function (child) {
+    child.addEventListener('click', function() {
+      if (child.hasAttribute('id') ) {
+        child.style.border = "2px solid lime";
+        score1 += 1; // increment score for quiz 1 if answer is correct
+        child.disabled = true
+    } 
+    
+    else {
+        child.style.border = "2px solid red";
+        score1 = Math.max(0, score1 - incorrectPenalty);
+        child.disabled = true
+      }
+
+      if ( score1 == 0) {
+        comment.innerHTML = "Rome wasn't built in a day 🗿, better luck next time my friend.";
+      }
+
+      else if (score1 < 0 || score1 <= 4){
+        comment.innerHTML = "There is still room for improvement 👍. Keep pushing!";
+      }
+
+      else if (score1 < 5 || score1 <= 9){
+        comment.innerHTML = "You performed really well 👌. Continue learning more!";
+      }
+
+      else {
+            comment.innerHTML = "Perfectoin 🤌, as expected from  a Codeology.net user!";
+      }
+      score.innerHTML = score1.toString();
+      console.log("Score for Quiz 1: " + score1); // log current score for quiz 1
+    });
+  });
+});
+
+</script>
+
+
+

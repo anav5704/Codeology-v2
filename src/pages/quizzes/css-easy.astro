@@ -1,0 +1,141 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "CSS Quiz";
+
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="CSS quiz, interactive quiz, web development, styling quiz, CSS3, selectors, box model, responsive design, frontend development, online quiz"
+description="Put your CSS skills to the test with this interactive quiz! Dive into a series of questions designed to evaluate your knowledge of CSS3, selectors, the box model, responsive design, and more. This web development quiz is perfect for frontend developers and aspiring web designers looking to enhance their styling expertise. Join this engaging online quiz to gauge your proficiency in CSS and discover areas for improvement. Take the CSS quiz now and level up your web development skills!"
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} 💄</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. What does CSS stand for?</p>
+                    <button id="ans">Cascading Style Sheets</button>
+                    <button>Creative Style Sheets</button>
+                    <button>Colorful Style Sheets</button>
+                    <button>Computer Style Sheets</button>
+    
+                    <p class="question">2. What is the correct CSS syntax for setting the background color of a div element?</p>
+                    <button id="ans">background-color: yellow;</button>
+                    <button>bg-color: yellow;</button>
+                    <button>color-background: yellow;</button>
+                    <button>color: yellow;</button>
+    
+                    <p class="question">3. Which CSS property is used to control the text size of an element?</p>
+                    <button>text-size</button>
+                    <button>font-style</button>
+                    <button>text-style</button>
+                     <button id="ans">font-size</button>
+    
+                    <p class="question">4. What is the default value of the position property in CSS?</p>
+                    <button>static</button>
+                    <button id="ans">relative</button>
+                    <button>absolute</button>
+                    <button>fixed</button>
+    
+                    <p class="question">5. Which CSS property is used to control the spacing between lines of text?</p>
+                    <button>line-height</button>
+                    <button>letter-spacing</button>
+                    <button id="ans">word-spacing</button>
+                    <button>text-spacing</button>
+    
+                    <p class="question">6. Which CSS property is used to control the size of an element's border?</p>
+                    <button id="ans">border-width</button>
+                    <button>border-style</button>
+                    <button>border-color</button>
+                    <button>border-size</button>
+    
+                    <p class="question">7. What is the correct CSS syntax for centering a div element horizontally?</p>
+                    <button>center: 0;</button>
+                    <button>align: center;</button>
+                    <button id="ans">margin: auto;</button>
+                    <button>padding: auto;</button>
+    
+                    <p class="question">8. Which CSS property is used to add shadows to an element?</p>
+                    <button>text-shadow</button>
+                    <button id="ans">box-shadow</button>
+                    <button>shadow-color</button>
+                    <button>element-shadow</button>
+    
+                    <p class="question">9. What is the correct CSS syntax for changing the font of an element?</p>
+                    <button>font-type: Arial, sans-serif;</button>
+                    <button>font-style: Arial, sans-serif;</button>
+                    <button id="ans">font-family: Arial, sans-serif;</button>
+                    <button>font: Arial, sans-serif;</button>
+    
+                    <p class="question">10. Which CSS property is used to control the transparency of an element?</p>
+                    <button>visibility</button>
+                    <button>transparent</button>
+                    <button>filter</button>
+                    <button id="ans">opacity</button>   
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script>
+
+    let score1 = 0; // score for quiz 1
+    const incorrectPenalty = 1;
+    const quiz1Elements = document.querySelectorAll("#quiz1"); // select elements for quiz 1
+    const comment = document.getElementById("comment")
+    const score = document.getElementById("score")
+
+    quiz1Elements.forEach(function(parentElement) { // loop through quiz 1 elements
+  const allChildren = parentElement.querySelectorAll("button");
+
+  allChildren.forEach(function (child) {
+    child.addEventListener('click', function() {
+      if (child.hasAttribute('id') ) {
+        child.style.border = "2px solid lime";
+        score1 += 1; // increment score for quiz 1 if answer is correct
+        child.disabled = true
+    } 
+    
+    else {
+        child.style.border = "2px solid red";
+        score1 = Math.max(0, score1 - incorrectPenalty);
+        child.disabled = true
+      }
+
+      if ( score1 == 0) {
+        comment.innerHTML = "Rome wasn't built in a day 🗿, better luck next time my friend.";
+      }
+
+      else if (score1 < 0 || score1 <= 4){
+        comment.innerHTML = "There is still room for improvement 👍. Keep pushing!";
+      }
+
+      else if (score1 < 5 || score1 <= 9){
+        comment.innerHTML = "You performed really well 👌. Continue learning more!";
+      }
+
+      else {
+            comment.innerHTML = "Perfectoin 🤌, as expected from  a Codeology.net user!";
+      }
+      score.innerHTML = score1.toString();
+      console.log("Score for Quiz 1: " + score1); // log current score for quiz 1
+    });
+  });
+});
+
+</script>
+
+
+
