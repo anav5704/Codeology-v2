@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import Featured from '../components/Featured.astro';
 import Blogcard from '../components/Blogcard.astro';
 import '../styles/main.css';
-const allPosts = await Astro.glob("../pages/blogholder/*.md");
+const allPosts = await Astro.glob("../pages/blogs/*.md");
 const heading = "Latest Blogs 🚀"
 const { blog } = Astro.props;
 ---
