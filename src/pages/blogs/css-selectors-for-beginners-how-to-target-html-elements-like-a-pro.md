@@ -1,5 +1,5 @@
 ---
-title: CSS Selectors for Beginners:Target HTML Elements Like a Pro
+title: "CSS Selectors for Beginners: Target HTML Elements Like a Pro"
 description: Selectors in CSS are crucial for formatting and styling web pages. They give you precise control over the look and feel of your website by enabling you ...
 author: Anav
 date: Jun 4, 2023
