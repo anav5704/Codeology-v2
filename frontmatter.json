@@ -65,8 +65,7 @@
             "title": "Slug",
             "name": "slug",
             "type": "slug",
-            "editable": true,
-            "default": "{{slug}}"
+            "editable": true
           }
       ]
     }
