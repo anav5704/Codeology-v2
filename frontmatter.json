@@ -60,7 +60,14 @@
           "title": "Meta Description",
           "name": "pageDescription",
           "type": "string"
-        }
+        },
+        {
+            "title": "Slug",
+            "name": "slug",
+            "type": "slug",
+            "editable": true,
+            "default": "{{slug}}"
+          }
       ]
     }
   ],
