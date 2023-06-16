@@ -1,5 +1,5 @@
 ---
-title: "The evolution of CSS: From version 1.0 to CSS4"
+title: "The evolution of CSS: From version CSS1 to CSS4"
 description: You've probably worked as a web designer or developer before. In that case, you have probably seen CSS change over time. CSS has come a long way from...
 author: Anav
 date: May 31, 2023
