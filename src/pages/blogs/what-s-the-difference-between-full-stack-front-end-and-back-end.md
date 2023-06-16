@@ -1,5 +1,5 @@
 ---
-title: What's the Difference Between Full-Stack, Front-End, and Back-End?
+title: The Difference Between Full-Stack, Front-End, and Back-End
 description: The demand for knowledgeable developers has never been higher as the internet grows and changes. Front-end and back-end developers...
 author: Anav
 date: May 6, 2023
@@ -11,7 +11,8 @@ layout: ../../layouts/blog.astro
 image: /img/15.jpg
 alt: Angular
 keywords: full-stack development, front-end development, back-end development, web development journey, programming languages, web design principles, server administration, user interface, user experience, web technologies, emerging technologies, server-side programming, databases, algorithms, data structures, APIs, third-party integrations, frameworks.
-pageDescription: Learn about the differences between full-stack, front-end, and back-end development and their respective roadmaps. Discover the skills and technologies required for each field to become an effective web developer.
+pageDescription: Learn about the differences between full-stack, front-end, and back-end development and their respective roadmaps. Discover the skills and technologies.
+slug: difference-full-stack-frontend-backend
 ---
 The demand for knowledgeable developers has never been higher as the internet grows and changes. Front-end and back-end developers are two of the most popular categories of programmers. A full-stack developer, on the other hand, is a different category of developer that can work on both the front-end and back-end of a website or application. We'll discuss what full-stack, front-end, and back-end development are in this blog article, as well as the knowledge needed for each as well as a simple roadmap to get you started on your web development journey! 
 

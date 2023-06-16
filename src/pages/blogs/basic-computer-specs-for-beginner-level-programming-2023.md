@@ -11,7 +11,8 @@ layout: ../../layouts/blog.astro
 image: /img/1.jpg
 alt: rectangular image with text on the left that reads  Basic computer specs for beginner level programming and an image of a intel core i7 cpu on the right
 keywords: beginner-level programming, PC requirements, CPU, GPU, RAM, storage, display, operating system, coding challenge, programming journey, essential gear, Intel Core i3, solid-state drive, Windows, Linux, macOS, programming tasks, data analysis, game design, web development.
-pageDescription: Learn about the essential PC requirements for beginner-level programming, including CPU, GPU, RAM, storage, display, and operating system. Get the right gear to confidently take on any coding challenge and start your journey into the exciting world of programming today!
+pageDescription: Learn about the essential PC requirements for beginner-level programming, including CPU, GPU, RAM, storage, display, and operating system. 
+slug: basic-computer-specs-beginner-level-programming-2023
 ---
 Welcome to the exciting world of programming! One of the first things you'll need as a newbie is a computer with the necessary hardware to get going. But don't worry—this does not mean that you need to purchase any expensive equipment. In actuality, all you need to get started is a basic PC that satisfies the minimum requirements for programming. We'll walk you through the crucial PC requirements for basic-level programming in this article. Having a computer with the correct specs will prepare you for success and make your path into coding more fun, whether your interests are in web development, game design, or data analysis. So let's dig right in and learn about programming!
 

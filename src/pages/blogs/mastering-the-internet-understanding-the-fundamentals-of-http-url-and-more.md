@@ -1,6 +1,6 @@
 ---
 title: Understanding the Fundamentals of HTTP, URL, and More
-description: "Are you prepared to discover more about the wonderful internet? This blog is for you whether you're an absolute rookie or just want to brush up on your expertise! "
+description: Are you prepared to discover more about the wonderful internet? This blog is for you whether you're an absolute rookie or just want to brush up...
 author: Anav
 date: May 2, 2023
 time: 4.5 mins
@@ -11,7 +11,8 @@ layout: ../../layouts/blog.astro
 image: /img/14.jpg
 alt: firefox
 keywords: HTTP, URL, WWW, domain name, web browser, internet basics, web development, web technology
-pageDescription: Discover the fundamentals of the internet, including HTTP, URL, WWW, domain names, and web browsers, in this article. Whether you're a beginner or want to improve your understanding, this guide will provide you with everything you need to know. Learn how to navigate the web, build a website, and communicate online using the essential elements of the internet. Find resources for frontend web development to take your skills to the next level.
+pageDescription: Discover the fundamentals of the internet, including HTTP, URL, WWW, domain names, and web browsers. This guide will provide you with everything you need to know.
+slug: understanding-fundamentals-http-url
 ---
 Are you prepared to discover more about the wonderful internet? This blog is for you whether you're an absolute rookie or just want to brush up on your expertise! In this post, we'll explore the basics of the internet by deconstructing the lingo and explain how everything operates, from HTTP and URL to WWW, domain names and web browsers. By the time you finish reading this article, you'll know more about the technology behind the web and how to utilise it to generate and access information. So let's get going!
 

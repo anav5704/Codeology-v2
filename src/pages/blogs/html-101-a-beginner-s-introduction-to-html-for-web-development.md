@@ -1,6 +1,6 @@
 ---
-title: "HTML 101: A Beginner's Introduction to HTML for Web Development"
-description: Hello, newbie! Your journey into the world of web development is about to get wild. Ever wonder how websites are developed? It's likely that if you're reading this, you're ready ...
+title: "HTML 101: A Beginner's Intro to HTML for Web Development"
+description: Hello, newbie! Your journey into the world of web development is about to get wild. Ever wonder how websites are developed? It's likely that if you're...
 author: Anav
 date: May 27, 2023
 time: 3.5 mins
@@ -13,7 +13,8 @@ layout: ../../layouts/blog.astro
 image: /img/19.jpg
 alt: html
 keywords: HTML, web development, beginner's guide, HTML elements, HTML tags, HTML document structure, creating HTML documents, best practices, web page coding, web development courses.
-pageDescription: Learn the basics of HTML and kickstart your web development journey with this beginner's guide. Discover the importance of HTML in creating web pages, understand HTML elements and tags, and master the structure of an HTML document. Create your first HTML document using easy steps and explore best practices for writing clean and maintainable code. Start your web development adventure today and unleash the potential of HTML. Take a quiz or check out an HTML course to dive deeper into the world of HTML. Happy coding!
+pageDescription: Learn the basics of HTML and kickstart your web development journey with this beginner's guide. Discover the importance of HTML in creating web pages.
+slug: html-101-beginner-intro-html-web-development
 ---
 Hello, newbie! Your journey into the world of web development is about to get wild. Ever wonder how websites are developed? It's likely that if you're reading this, you're ready to learn more about HTML, the foundation of the web. Hypertext Markup Language is what HTML stands for, which is a mouthful, but don't be concerned! We're here to explain it to you in a humorous and interesting manner. You'll be able to build your own web pages by the end of this article and dazzle your friends with your growing coding expertise. So let's explore the wonderful world of HTML while enjoying a cup of coffee or tea.
 

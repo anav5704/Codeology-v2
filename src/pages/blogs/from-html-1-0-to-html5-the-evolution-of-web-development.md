@@ -1,6 +1,6 @@
 ---
 title: "From HTML 1.0 to HTML5: The Evolution of Web Development"
-description: Are you prepared to travel back in time and learn about HTML's evolution? As we explore the beginnings of the most widely used markup language in web development, buckle up and prepare to go back in time. Since its inception, HTML ...
+description: Are you prepared to travel back in time and learn about HTML's evolution? Let's explore the beginnings of the most widely used markup language.
 author: Anav
 date: May 19, 2023
 time: 5 mins
@@ -12,7 +12,8 @@ layout: ../../layouts/blog.astro
 image: /img/18.jpg
 alt: html 6
 keywords: HTML evolution, HTML 1.0, HTML5, web development, markup language, Tim Berners-Lee, HTML history, HTML2.0, HTML3.2, HTML4.01, XHTML, HTML5 features, multimedia content, canvas element, local storage, web applications, HTML6 speculation, future of HTML, web experiences, HTML quiz, HTML course
-pageDescription: Explore the captivating journey of HTML's evolution from version 1.0 to HTML5 in this entertaining blog. Discover how HTML transformed the internet and get a glimpse of what the future may hold with HTML6. Join us on this fascinating ride through the history of web development
+pageDescription: Explore the captivating journey of HTML's evolution from version 1.0 to HTML5 in this entertaining blog. Discover how HTML transformed the internet.
+slug: html1-to-html5-evolution-web-development
 ---
 
 Are you prepared to travel back in time and learn about HTML's evolution? As we explore the beginnings of the most widely used markup language in web development, buckle up and prepare to go back in time. Since its inception, HTML has come a long way from the days of plain text and images to the dynamic, interactive web applications we know today. We'll take you on an entertaining tour of HTML's development in this blog, from version 1.0 to the most recent and cutting-edge HTML5. So grab some popcorn and prepare to discover the fascinating tale of how HTML transformed the internet as we know it!

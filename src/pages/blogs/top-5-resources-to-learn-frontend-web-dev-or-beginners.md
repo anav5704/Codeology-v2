@@ -14,7 +14,8 @@ layout: ../../layouts/blog.astro
 image: /img/3.jpg
 alt: rectangular image with text on the left that reads top 5 Resources to learn  frontend web and an image of the html and css logo on the right
 keywords: front-end development, web development, beginner's guide, self-paced courses, curriculum, visual tutorials, FreeCodeCamp, W3Schools, Mozilla Developer Network, Udemy, YouTube, programming, HTML, CSS, JavaScript, React, Angular, Vue, online learning, best practices, projects, online groups.
-pageDescription: Discover the top 5 resources to learn front-end web development for beginners. This in-depth guide provides a variety of learning options, including self-paced courses, curriculum, and visual tutorials. From FreeCodeCamp.com to Udemy courses and YouTube channels, you'll have a firm grasp of where to begin and how to continue on your path to becoming a front-end developer.
+pageDescription: Discover the top 5 resources to learn front-end web development for beginners. This in-depth guide provides a variety of learning options.
+slug: top-5-resources-learn-frontend-web-dev-beginners
 ---
 Are you interested in front-end development but not sure where to begin? Knowing which resources to use can be difficult with so many online. To assist newbies in finding the top resources for learning frontend development, we have put together this in-depth guide. We provide a variety of learning options, including self-paced courses, curriculum, and visual tutorials. This guide will introduce you to some of the best resources out there, such as free online tutorials, documents, and courses, as well as some premium resources that are well worth the money. You'll have a firm grasp of where to begin and how to continue on your path to becoming a front-end developer by the time you finish reading this tutorial. So let's start!
 

@@ -11,7 +11,8 @@ layout: ../../layouts/blog.astro
 image: /img/4.jpg
 alt: rectangular image with text on the left that reads  JavaScript Countdown Timer and an image of a simple  JavaScript Countdown Timer on the right
 keywords: JavaScript countdown time0,r Date object, setInterval method, Web development , Front-end development
-pageDescription: Learn how to create a JavaScript countdown timer using the Date object and the setInterval method. This tutorial will teach you how to display the remaining time until a specified date and time, and how to customize the appearance of the countdown timer using CSS. By the end of this tutorial, you'll be able to add a dynamic and engaging countdown timer to your website using JavaScript.
+pageDescription: Learn how to create a JavaScript countdown timer using the Date object and the setInterval method. This tutorial will teach you how to display the remaining time until a specified date and time.
+slug: creating-javascript-countdown-timer-date-object
 ---
 Having a countdown timer on a website is a handy feature, whether it's to countdown to an occasion, a sale, or a new product launch. A countdown timer that shows the number of days, hours, minutes, and seconds until a target date can be easily made using JavaScript. The time remaining will be determined in this tutorial using the [Date.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) method and the timer will be updated every second using the [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/setInterval) method.
 

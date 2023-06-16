@@ -1,6 +1,6 @@
 ---
-title: "CSS Selectors for Beginners: How to Target HTML Elements Like a Pro"
-description: Selectors in CSS are crucial for formatting and styling web pages. They give you precise control over the look and feel of your website by enabling you to target specific HTML elements ...
+title: CSS Selectors for Beginners:Target HTML Elements Like a Pro
+description: Selectors in CSS are crucial for formatting and styling web pages. They give you precise control over the look and feel of your website by enabling you ...
 author: Anav
 date: Jun 4, 2023
 time: 3.5 mins
@@ -13,7 +13,8 @@ layout: ../../layouts/blog.astro
 image: /img/21.jpg
 alt: css
 keywords: CSS selectors, HTML elements, styling web pages, web design, web development, specificity, best practices
-pageDescription: Learn how to use CSS selectors like a pro! This blog provides a comprehensive guide to targeting HTML elements with CSS, from basic selectors like elements, classes, and IDs, to more advanced selectors such as attribute selectors and pseudo-classes. Discover the power of combination selectors and understand the importance of specificity.
+pageDescription: Learn how to use CSS selectors like a pro! This blog provides a comprehensive guide to targeting HTML elements with CSS, from basic selectors to more advanced selectors.
+slug: css-selectors-beginners-target-html-elements-pro
 ---
 
 
