@@ -1,5 +1,5 @@
 ---
-title: "The evolution of CSS: From CSS1 to CSS4"
+title: "From CSS1 to CSS3 The Evolution of Web Styling"
 description: You've probably worked as a web designer or developer before. In that case, you have probably seen CSS change over time. CSS has come a long way from...
 author: Anav
 date: May 31, 2023
