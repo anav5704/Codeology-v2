@@ -64,7 +64,7 @@
         },
         {
             "title": "Slug",
-            "name": "slug",
+            "name": "url",
             "type": "slug",
             "editable": true
           }

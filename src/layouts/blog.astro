@@ -2,12 +2,11 @@
 import Base from './Base.astro';
 import Featured from '../components/Featured.astro';
 import '../styles/main.css';
-import { Image } from '@astrojs/image/components';
 const { frontmatter } = Astro.props;
 ---
 
 <Base 
-title={frontmatter.title}
+title={frontmatter.title}``
 keywords={frontmatter.keywords}
 description={frontmatter.pageDescription}
 >
