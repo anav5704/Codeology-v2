@@ -74,13 +74,23 @@ rotate: 180deg;
 }
 
 .slider {
-    height: 125px;
+    height: 100px;
     width: calc(180px * 15);
     animation: scroll 35s linear infinite;
 }
 
 .slider svg {
-    margin: 50px;
+    aspect-ratio: 1/1;
+    height: 100%;
+    margin: 0px 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .slider svg {
+    aspect-ratio: 1/1;
+    height: 75%;
+    margin: 0px 25px;
+}
 }
 
 @keyframes scroll {

@@ -70,12 +70,12 @@
   "frontMatter.preview.host": "http://localhost:3000",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/src/pages/blogholder",
-      "title": "blogholder"
-    },
-    {
       "title": "img",
       "path": "[[workspace]]/public/img"
+    },
+    {
+      "title": "blogs",
+      "path": "[[workspace]]/src/pages/blogs"
     }
   ],
   "frontMatter.taxonomy.tags": [
