@@ -20,7 +20,8 @@
         {
           "title": "Author",
           "name": "author",
-          "type": "string"
+          "type": "string",
+          "default": "Anav"
         },
         {
           "title": "Date",
