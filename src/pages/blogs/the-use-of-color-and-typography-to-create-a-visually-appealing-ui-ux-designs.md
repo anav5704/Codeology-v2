@@ -8,7 +8,8 @@ tags:
   - All
   - UIUX
 layout: ../../layouts/blog.astro
-image: /img/17.jpg
+image: /img/9.jpg
+load: /img/9sm.jpg
 alt: Text
 keywords: UI/UX design, color theory, typography, readability, legibility, contrast, emotional response, cultural connotations, color schemes, brand identity.
 pageDescription: Learn how to use color and typography effectively in UI/UX design. Our blog discusses the importance of readability and legibility, color contrast and more

@@ -9,6 +9,7 @@ tags:
   - Programming
 layout: ../../layouts/blog.astro
 image: /img/1.jpg
+load: /img/1sm.jpg
 alt: rectangular image with text on the left that reads  Basic computer specs for beginner level programming and an image of a intel core i7 cpu on the right
 keywords: beginner-level programming, PC requirements, CPU, GPU, RAM, storage, display, operating system, coding challenge, programming journey, essential gear, Intel Core i3, solid-state drive, Windows, Linux, macOS, programming tasks, data analysis, game design, web development.
 pageDescription: Learn about the essential PC requirements for beginner-level programming, including CPU, GPU, RAM, storage, display, and operating system. 

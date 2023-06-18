@@ -1,5 +1,5 @@
 ---
-title: "From HTML 1.0 to HTML5: The Evolution of Web Development"
+title: "From HTML 1.0 to HTML6: The Evolution of Web Development"
 description: Are you prepared to travel back in time and learn about HTML's evolution? Let's explore the beginnings of the most widely used markup language.
 author: Anav
 date: May 19, 2023
@@ -9,7 +9,8 @@ tags:
   - HTML
   - Webdev
 layout: ../../layouts/blog.astro
-image: /img/18.jpg
+image: /img/10.jpg
+load: /img/10sm.jpg
 alt: html 6
 keywords: HTML evolution, HTML 1.0, HTML5, web development, markup language, Tim Berners-Lee, HTML history, HTML2.0, HTML3.2, HTML4.01, XHTML, HTML5 features, multimedia content, canvas element, local storage, web applications, HTML6 speculation, future of HTML, web experiences, HTML quiz, HTML course
 pageDescription: Explore the captivating journey of HTML's evolution from version 1.0 to HTML5 in this entertaining blog. Discover how HTML transformed the internet.

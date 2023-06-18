@@ -10,6 +10,7 @@ tags:
   - Study
 layout: ../../layouts/blog.astro
 image: /img/2.jpg
+load: /img/2sm.jpg
 alt: rectangular image with text on the left that reads 5 amazing tips that can help you learn coding faster! and an image of a stack of books on the right at an isometric angle
 keywords: learn coding, coding skills, coding fundamentals, coding community, coding mentor, online coding resources, coding practice, coding exercises, programming languages, full-stack web development, HTML, CSS, JavaScript, Python, Ruby, coding goals, coding tips
 pageDescription: Learn to code quickly and effectively with these five amazing tips! Set clear goals, start with the basics, use online resources, get a mentor, and practice consistently.

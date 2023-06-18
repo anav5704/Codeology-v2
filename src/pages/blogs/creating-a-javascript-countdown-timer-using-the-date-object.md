@@ -9,6 +9,7 @@ tags:
   - JavaScript
 layout: ../../layouts/blog.astro
 image: /img/4.jpg
+load: /img/4sm.jpg
 alt: rectangular image with text on the left that reads  JavaScript Countdown Timer and an image of a simple  JavaScript Countdown Timer on the right
 keywords: JavaScript countdown time0,r Date object, setInterval method, Web development , Front-end development
 pageDescription: Learn how to create a JavaScript countdown timer using the Date object and the setInterval method. This tutorial will teach you how to display the remaining time until a specified date and time.

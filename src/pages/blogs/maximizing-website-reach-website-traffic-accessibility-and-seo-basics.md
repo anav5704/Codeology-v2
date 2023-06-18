@@ -8,7 +8,8 @@ tags:
   - All
   - Webdev
 layout: ../../layouts/blog.astro
-image: /img/16.jpg
+image: /img/8.jpg
+load: /img/8sm.jpg
 alt: traffic light
 keywords: "Tags: website traffic, website accessibility, SEO basics, search engine optimisation, content marketing, social media marketing, Alt text, headers, subheadings, transcripts, captions, keyword research, high-quality content, on-page optimisation, backlinks."
 pageDescription: Learn how to increase the reach of your website with this comprehensive guide on website traffic, accessibility, and SEO basics. 

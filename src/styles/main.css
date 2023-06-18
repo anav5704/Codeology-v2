@@ -74,6 +74,10 @@
       .joe {
         @apply text-black dark:text-white caret-CBlue outline-none border-2 dark:border-CGray focus:border-2 dark:focus:border-CBlue focus:border-CBlue w-full p-3  rounded-md mb-3;
       }
+
+      .details img {
+        @apply border-2 border-CCool dark:border-CWhite rounded-md
+      }
 }
 
 :root {
@@ -197,7 +201,12 @@ pre {
     background-position:center;
     position: relative;
     width: 100%;
+    filter: blur(5px);
     aspect-ratio: 3/1;
+}
+
+.blur-load.loaded{
+    filter: blur(0px);
 }
 
 .dark .blur-load::before {

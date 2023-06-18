@@ -8,7 +8,8 @@ tags:
   - All
   - Webdev
 layout: ../../layouts/blog.astro
-image: /img/14.jpg
+image: /img/6.jpg
+load: /img/6sm.jpg
 alt: firefox
 keywords: HTTP, URL, WWW, domain name, web browser, internet basics, web development, web technology
 pageDescription: Discover the fundamentals of the internet, including HTTP, URL, WWW, domain names, and web browsers. This guide will provide you with everything you need to know.

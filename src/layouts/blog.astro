@@ -14,7 +14,7 @@ description={frontmatter.pageDescription}
         <div class="md:w-3/4 w-full">
             <div class="blogcard">
                 <!-- <pre>{JSON.stringify(frontmatter, null, 2)}</pre> -->
-                <div class="blur-load" >
+                <div class="blur-load" style=`background-image: url(${frontmatter.load});`>
                     <img loading="lazy" class="img" src={frontmatter.image} alt={frontmatter.src} />
                 </div>
                 <div class="details">
@@ -43,5 +43,6 @@ description={frontmatter.pageDescription}
         img.addEventListener("load" ,loaded)
     }
 </script>
+
 
 

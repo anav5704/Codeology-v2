@@ -8,7 +8,8 @@ tags:
   - All
   - Webdev
 layout: ../../layouts/blog.astro
-image: /img/15.jpg
+image: /img/7.jpg
+load: /img/7sm.jpg
 alt: Angular
 keywords: full-stack development, front-end development, back-end development, web development journey, programming languages, web design principles, server administration, user interface, user experience, web technologies, emerging technologies, server-side programming, databases, algorithms, data structures, APIs, third-party integrations, frameworks.
 pageDescription: Learn about the differences between full-stack, front-end, and back-end development and their respective roadmaps. Discover the skills and technologies.

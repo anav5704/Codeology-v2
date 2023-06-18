@@ -1,7 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
 import Featured from "../components/Featured.astro";
-import { Image } from "@astrojs/image/components";
 import "../styles/main.css";
 const heading = "Message Sent 📨";
 ---
@@ -22,7 +21,7 @@ const heading = "Message Sent 📨";
                         aspectRatio={3/2}
                     />
                 </div> -->
-                <div class="blur-load" >
+                <div class="blur-load" style="background-image: url(/img/sentsm.jpg);">
                     <img class="img" src= "/img/sent.jpg" alt="2d illustration of man sittting on a desk with a computer beside him" />
                 </div>
                 <div class="details">

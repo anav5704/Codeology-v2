@@ -12,6 +12,7 @@ tags:
   - Webdev
 layout: ../../layouts/blog.astro
 image: /img/3.jpg
+load: /img/3sm.jpg
 alt: rectangular image with text on the left that reads top 5 Resources to learn  frontend web and an image of the html and css logo on the right
 keywords: front-end development, web development, beginner's guide, self-paced courses, curriculum, visual tutorials, FreeCodeCamp, W3Schools, Mozilla Developer Network, Udemy, YouTube, programming, HTML, CSS, JavaScript, React, Angular, Vue, online learning, best practices, projects, online groups.
 pageDescription: Discover the top 5 resources to learn front-end web development for beginners. This in-depth guide provides a variety of learning options.

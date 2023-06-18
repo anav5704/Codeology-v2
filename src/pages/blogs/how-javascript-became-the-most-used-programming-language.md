@@ -10,7 +10,8 @@ tags:
   - Latest
   - Programming
 layout: ../../layouts/blog.astro
-image: /img/22.jpg
+image: /img/14.jpg
+load: /img/14sm.jpg
 alt: javascript
 keywords: JavaScript, programming language, web development, evolution, interactivity, libraries, frameworks, tools
 pageDescription: Explore the evolution of JavaScript from its humble beginnings to becoming the most widely used programming language in web development.

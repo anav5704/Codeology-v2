@@ -16,7 +16,7 @@ const {blog} = Astro.props;
         decoding="async"
         format="avif"
         />  -->
-        <div class="blur-load">
+        <div class="blur-load" style=`background-image: url(${blog.frontmatter.load});`>
             <img loading="lazy" src={blog.frontmatter.image} alt={blog.frontmatter.alt}>
         </div>
     </a>

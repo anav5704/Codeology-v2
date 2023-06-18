@@ -10,7 +10,8 @@ tags:
   - Latest
   - Webdev
 layout: ../../layouts/blog.astro
-image: /img/21.jpg
+image: /img/13.jpg
+load: /img/13sm.jpg
 alt: css
 keywords: CSS selectors, HTML elements, styling web pages, web design, web development, specificity, best practices
 pageDescription: Learn how to use CSS selectors like a pro! This blog provides a comprehensive guide to targeting HTML elements with CSS, from basic selectors to more advanced selectors.

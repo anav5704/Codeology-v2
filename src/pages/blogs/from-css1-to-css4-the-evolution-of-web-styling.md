@@ -10,7 +10,8 @@ tags:
   - Latest
   - Webdev
 layout: ../../layouts/blog.astro
-image: /img/20.jpg
+image: /img/12.jpg
+load: /img/12sm.jpg
 alt: css
 keywords: CSS evolution, CSS history, web design, CSS 1, CSS 2, CSS 3, CSS 4, web development, styling web pages, responsive design, modular specifications
 pageDescription: " Explore the evolution of CSS from its humble beginnings with CSS 1 to the cutting-edge features of CSS 4. Discover how CSS revolutionized web design."

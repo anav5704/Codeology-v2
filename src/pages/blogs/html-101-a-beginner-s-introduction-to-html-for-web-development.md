@@ -10,7 +10,8 @@ tags:
   - Latest
   - Webdev
 layout: ../../layouts/blog.astro
-image: /img/19.jpg
+image: /img/11.jpg
+load: /img/11sm.jpg
 alt: html
 keywords: HTML, web development, beginner's guide, HTML elements, HTML tags, HTML document structure, creating HTML documents, best practices, web page coding, web development courses.
 pageDescription: Learn the basics of HTML and kickstart your web development journey with this beginner's guide. Discover the importance of HTML in creating web pages.
