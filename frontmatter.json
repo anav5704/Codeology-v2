@@ -4,12 +4,13 @@
     {
       "name": "default",
       "pageBundle": false,
+      "filePrefix": null,
       "previewPath": null,
       "fields": [
         {
           "title": "Title",
           "name": "title",
-          "type": "datetime"
+          "type": "string"
         },
         {
           "title": "Description",
@@ -24,7 +25,8 @@
         {
           "title": "Date",
           "name": "date",
-          "type": "datetime"
+          "type": "datetime",
+          "default": "{{now}}"
         },
         {
           "title": "Time",
@@ -34,12 +36,14 @@
         {
           "title": "Tags",
           "name": "tags",
-          "type": "tags"
+          "type": "tags",
+          "default": "All"
         },
         {
           "title": "Layout",
           "name": "layout",
-          "type": "string"
+          "type": "string",
+          "default": "../../layouts/blog.astro"
         },
         {
           "title": "Image",
@@ -61,13 +65,7 @@
           "title": "Meta Description",
           "name": "pageDescription",
           "type": "string"
-        },
-        {
-            "title": "Slug",
-            "name": "url",
-            "type": "slug",
-            "editable": true
-          }
+        }
       ]
     }
   ],
