@@ -63,8 +63,18 @@ As the most recent iteration of the widely used web development language, HTML5 
 
 What comes next is a mystery for many developers as HTML5 remains the industry standard for web development. Although HTML6 does not yet have an official roadmap, some industry professionals believe it will build on HTML5's foundation by introducing new features and capabilities that will further improve the user experience. The introduction of more sophisticated APIs that enable better integration with other web technologies and services is one possibility. Enhancing web application performance is another potential area of focus, perhaps with the help of new protocols or optimisation methods. Since it is currently unknown when HTML6 will be released or what features it will have, any discussion of it is, of course, purely speculative.
 
+### Summary
 
+| Version | Release | Key Features                                                                                      |
+|---------------|---------------|--------------------------------------------------------------------------------------------------|
+| HTML 1.0     | 1991         | Simple markup language, text-based, link-based, and image-based web pages                       |
+| HTML 2.0     | 1995         | Tables, image maps, form elements                                                                |
+| HTML 3.2     | 1997         | Frames, style sheets, improved table support                                                     |
+| HTML 4.01    | 1999         | Multimedia content embedding, meta tags, enhanced form support                                   |
+| XHTML        | 2000         | Based on XML, modular and well-formed structure                                                  |
+| HTML5        | 2008         | Video and audio elements, canvas for graphics and animation, local storage, improved forms        |
+| HTML6        | TBD          | Unknown features, potential for new APIs and performance enhancements                            |
 
 ### That’s it!
 
-In conclusion, HTML has developed from its basic beginnings to the potent language it is today, and the process has been nothing short of amazing. From HTML 1.0's introduction of simple text, links, and images to HTML5's ability to create multimedia-rich, interactive web experiences, the language has continuously evolved to meet the demands of a constantly shifting digital environment. With the potential release of HTML6, we can only speculate about what the future of HTML may hold, but we can be sure that it will continue to push the limits of what is possible on the web. We can expect even more thrilling web experiences in the years to come as developers continue to innovate and explore the possibilities of this potent language. If you want to get your hands dirty and try out html5, this [HTML quiz](https://codeology.net/quiz/#quiz1) is perfect for you. Until next time, happy coding!
+In conclusion, HTML has developed from its basic beginnings to the potent language it is today, and the process has been nothing short of amazing. From HTML 1.0's introduction of simple text, links, and images to HTML5's ability to create multimedia-rich, interactive web experiences, the language has continuously evolved to meet the demands of a constantly shifting digital environment. With the potential release of HTML6, we can only speculate about what the future of HTML may hold, but we can be sure that it will continue to push the limits of what is possible on the web. We can expect even more thrilling web experiences in the years to come as developers continue to innovate and explore the possibilities of this potent language. If you want to get your hands dirty and try out html5, this [HTML quiz](https://codeology.net/quizzes/html-easy) is perfect for you. Until next time, happy coding!

@@ -78,6 +78,7 @@
       .details img {
         @apply border-2 border-CCool dark:border-CWhite rounded-md
       }
+
 }
 
 :root {
@@ -231,6 +232,32 @@ pre {
 
 .blur-load.loaded > img {
     opacity: 1;
+}
+
+table {
+    width: 100%;
+}
+
+ th,  tr {
+    border: 1px solid  #ddd;
+    vertical-align: top;
+
+ } 
+
+.dark td, .dark th {
+    border: 1px solid var(--CWhite);
+    color: white;
+}
+
+td, th {
+    padding: 5px;
+}
+
+th {
+    background-color: var(--CGhost);
+    padding: 5px;
+    font-weight: 500;
+    text-align: left;
 }
 
 .blur-load > img {

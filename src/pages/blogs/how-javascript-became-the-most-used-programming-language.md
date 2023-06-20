@@ -39,6 +39,17 @@ JavaScript is one of the most popular programming languages in use today, and it
 
 Looking ahead, it is obvious that JavaScript will continue to be important for the foreseeable future in web development. Developers will need more robust and adaptable tools as web applications become more complex and demanding. There are more opportunities to combine JavaScript with other languages and technologies thanks to the emergence of new ones like WebAssembly, which allows programmers to execute code written in other programming languages inside the browser. The JavaScript ecosystem will also continue to develop at the same time, with new libraries, frameworks, and tools appearing to meet the shifting requirements of developers. There is no doubt that JavaScript will be at the forefront of these developments as the web continues to grow and change.
 
+### Summary 
+
+| Period                   | Key Developments                                                                                                                                         |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| The birth of JavaScript | The creation of JavaScript by Brendan Eich in 1995 to increase the dynamic and interactivity of web pages                                               |
+| Early 2000s             | Advancements like AJAX, improving interactivity; challenges with browser support and security; development of libraries and frameworks                       |
+| Late 2000s              | Widespread adoption of HTML5 and CSS3; improved support for object-oriented programming; introduction of libraries and frameworks like AngularJS and React |
+| Modern-day JavaScript   | Expansion of the JavaScript ecosystem with libraries, frameworks, and tools; introduction of language features like async/await and destructuring            |
+| Future of JavaScript    | Continued importance in web development; integration with new technologies like WebAssembly; ongoing development of the JavaScript ecosystem             |
+
+
 ### That’s it!
 
 JavaScript has come a long way since its beginnings as a simple language for adding interactivity to web pages to its current status as one of the most potent and flexible programming languages in the world. The needs and demands of developers, who have pushed the boundaries of what is feasible and developed a vast ecosystem of libraries, frameworks, and tools that make it simpler than ever to create complex web applications, have driven its evolution. Looking ahead, it is obvious that JavaScript will continue to be essential to web development, giving programmers the resources and abilities they require to create the upcoming wave of web applications. So cheers to JavaScript, the diminutive language that was able to achieve so much! If you found this interesting and want to learn more about JavaScript, feel free to try out this [JavaScript quiz](https://codeology.net/quizzes/javascript-easy). Until next time, happy coding!

@@ -28,22 +28,16 @@ The colour and contrast of the text must be taken into account by designers in a
 \
 For readability, the distance between lines of text and paragraphs is also essential. The text's legibility can be enhanced, and people can scan the content more easily when there is enough space between words. Line and paragraph spacing must be balanced by designers to make the content easy to read without consuming too much screen space.
 
-### Dos
+### Dos and Don'ts
 
-* For the intended audience and device, use the proper fonts and sizes.
-* When choosing fonts, sizes, and colours, take readability and legibility into consideration.
-* To make text more readable, give lines and paragraphs enough space.
-* To improve readability, make sure the text and background have a sufficient amount of contrast.
-* To help readers navigate the content, construct a hierarchy of information using typography.
-* To provide a seamless and uniform experience, use consistent typeface throughout the entire product.
+| Do                                                                                         | Don't                                                                                     |
+|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| For the intended audience and device, use the proper fonts and sizes.                       | Use a mix of fonts and sizes that is too wide; this can make users feel overwhelmed and confused.                                                    |
+| When choosing fonts, sizes, and colours, take readability and legibility into consideration. | Use distracting or excessively decorative typefaces to make text harder to read, as this can make text harder to understand.                             |
+| To make text more readable, give lines and paragraphs enough space.                          | Don't put lines and paragraphs too close together or too far apart since this will make it harder to read.                                             |
+| To improve readability, make sure the text and background have a sufficient amount of contrast. | Use colours that make it challenging to read the text, like low contrast or jarring hues.                                                           |
+| To help readers navigate the content, construct a hierarchy of information using typography. | Use inconsistent font throughout the product to avoid confusion and poor user experience.                                                              |
 
-### Don’t
-
-* Use a mix of fonts and sizes that is too wide; this can make users feel overwhelmed and confused.
-* Use distracting or excessively decorative typefaces to make text harder to read, as this can make text harder to understand.
-* Use colours that make it challenging to read the text, like low contrast or jarring hues.
-* Don't put lines and paragraphs too close together or too far apart since this will make it harder to read.
-* Use inconsistent font throughout the product to avoid confusion and poor user experience.
 
 ### Color theory
 
@@ -57,21 +51,14 @@ Color theory also needs to take into account colour schemes, or the mixes of col
 \
 It's also crucial to take colour gamut and colour profile into account when designing for a variety of platforms or devices. Since some colors may appear differently on various displays or devices, designers must make sure that the product's colours are consistent throughout all distribution channels.
 
-### Do
+### Dos and Don'ts
+| Do                                                                                         | Don't                                                                                     |
+|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Think about the significance and feelings that each color evokes.                          | Use too many colors; doing so may overwhelm and confuse users.                            |
+| To make the product feel seamless and united, use colors consistently throughout.          | Use colors that clash or make it challenging to read the text.                             |
+| Use color contrast to increase legibility and accessibility, especially for people with visual impairments. | Use colors inconsistently throughout the product to avoid confusion and poor user experience. |
+| Use color to establish a brand identity and set your goods out from the competition.        | Rely excessively on color to convey meaning because this can make information inaccessible to color-blind users. |
+| Users should be tested to make sure colour selections are appropriate and fulfil their demands. | Use colors that are too similar to one another to avoid confusion and make it more difficult for users to distinguish between elements. |
 
-* Think about the significance and feelings that each color evokes.
-* To make the product feel seamless and united, use colors consistently throughout.
-* Use color contrast to increase legibility and accessibility, especially for people with visual impairments.
-* Use color to establish a brand identity and set your goods out from the competition.
-* Users should be tested to make sure colour selections are appropriate and fulfil their demands.	
-
-### Don’t
-
-* Use too many colors; doing so may overwhelm and confuse users.
-* Use colors that clash or make it challenging to read the text.
-* Use colors inconsistently throughout the product to avoid confusion and poor user experience.
-* rely excessively on color to convey meaning because this can make information inaccessible to color-blind users.
-* Use colors that are too similar to one another to avoid confusion and make it more difficult for users to distinguish between elements.
-* Choose colors based on personal preferences rather than the needs of the target audience.
-
-In conclusion, typography and color theory are crucial UI/UX design pillars that have a significant impact on how users perceive a product. Typography can affect readability and a product's overall aesthetic, while colour theory can evoke feelings in viewers, direct them through the content, and help build a brand identity. Designers can make products that are both aesthetically pleasing and useful by carefully taking into account these factors and how they affect the user experience. Designers can create engaging and effective products that satisfy the needs of their audience by using the principles of typography and colour theory. Although without these [5 principles](https://codeology.net/blogholder/designing-for-success-5-essential-ui-ux-principles-you-need-to-know/) of good design, color and typography won’t be used to its full potential. Until next time, happy coding.
+\
+In conclusion, typography and color theory are crucial UI/UX design pillars that have a significant impact on how users perceive a product. Typography can affect readability and a product's overall aesthetic, while colour theory can evoke feelings in viewers, direct them through the content, and help build a brand identity. Designers can make products that are both aesthetically pleasing and useful by carefully taking into account these factors and how they affect the user experience. Designers can create engaging and effective products that satisfy the needs of their audience by using the principles of typography and colour theory. Although without these [5 principles](https://codeology.net/blogs/designing-for-success-5-essential-ui-ux-principles-you-need-to-know/) of good design, color and typography won’t be used to its full potential. Until next time, happy coding.

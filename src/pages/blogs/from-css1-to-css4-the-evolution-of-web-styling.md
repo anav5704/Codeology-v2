@@ -37,7 +37,7 @@ An update to the original CSS specification, known as CSS 2, was released in 199
 
 ### CSS 3: The Present
 
-As new modules are created and approved by the CSS Working Group, they are added to CSS 3. CSS 3 was first released in 1999 to add new features and improvements to CSS. Advanced typography, animations, transitions, and better element positioning and layout are all supported. With media queries, flexible box layout, and more advanced visual effects like gradients and shadows, CSS 3 gives developers the ability to create responsive designs. This improves website performance by lowering the demand for images and HTTP requests. These developments have revolutionised web design by making it simpler for designers to produce visually appealing and engaging websites.
+As new modules are created and approved by the CSS Working Group, they are added to CSS 3. CSS 3 was first released in 1999 to add new features and improvements to CSS. Advanced typography, animations, transitions, and better element positioning and layout are all supported. With media queries, flexible box layout, and more advanced visual effects like gradients and shadows, CSS 3 gives developers the ability to create responsive designs. This improves website performance by lowering the demand for images and HTTP requests. And recenty, nesting was introduced to CSS which was previously a feature exclusice to CSS preprocessors like SASS and LESS. These developments have revolutionised web design by making it simpler for designers to produce visually appealing and engaging websites.
 
 
 
@@ -45,8 +45,16 @@ As new modules are created and approved by the CSS Working Group, they are added
 
 The most recent set of modular specifications, CSS4, speaks to the state of CSS right now and where it's going. There isn't a single official specification, and some of the modules are still in the form of draughts or suggestions. Selectors level 4, custom properties, grid layout, and level 4 media queries are features of CSS4 that are frequently mentioned. Level 4 selectors introduce new methods for focusing on elements based on their characteristics, conditions, or connections. Authors can define and reuse their own variables in CSS by using custom properties. Media queries level 4 enable more precise control over responsive design, while grid layout offers a flexible way to create two-dimensional layouts.
 
+### Summary 
+
+| Version | Release | Key Features                                                                                                  |
+|-------------|--------------|--------------------------------------------------------------------------------------------------------------|
+| CSS 1       | 1996         | Distinguished presentation from content, offered styling control over font, color, spacing                    |
+| CSS 2       | 1998         | Improved font and color handling, media type support, precise element positioning, introduction of selectors |
+| CSS 3       | 1999         | Advanced typography, animations, transitions, flexible box layout, gradients, shadows, media queries, nesting        |
+| CSS 4       | TBD          | Level 4 selectors, custom properties, grid layout, level 4 media queries                                     |
 
 
 ### That’s it!
 
-In conclusion, CSS has advanced significantly since its creation in the 1990s, and each new version has brought about noticeable advancements. The idea of separating content from presentation was first introduced by CSS 1, layout and positioning features were later added by CSS 2, and many contemporary design elements, including gradients, animations, and responsive layouts, were introduced by CSS 3. Although CSS 4 has not yet been officially released, its proposed features look promising and will help web designers and developers continue to advance their skills. What CSS will look like in the future is impossible to predict, but one thing is certain: CSS has revolutionised web design and will undoubtedly continue to do so in the years to come. Now that you know how CSS has evolved over the ages, why not try this [CSS quiz](https://codeology.net/quiz/#quiz2) to test yourself? Until next time, happy coding!
+In conclusion, CSS has advanced significantly since its creation in the 1990s, and each new version has brought about noticeable advancements. The idea of separating content from presentation was first introduced by CSS 1, layout and positioning features were later added by CSS 2, and many contemporary design elements, including gradients, animations, and responsive layouts, were introduced by CSS 3. Although CSS 4 has not yet been officially released, its proposed features look promising and will help web designers and developers continue to advance their skills. What CSS will look like in the future is impossible to predict, but one thing is certain: CSS has revolutionised web design and will undoubtedly continue to do so in the years to come. Now that you know how CSS has evolved over the ages, why not try this [CSS quiz](https://codeology.net/quizzes/css-easy) to test yourself? Until next time, happy coding!

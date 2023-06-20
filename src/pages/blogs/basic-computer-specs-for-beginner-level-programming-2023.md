@@ -19,7 +19,7 @@ Welcome to the exciting world of programming! One of the first things you'll nee
 
 ### CPU - Central Processing Unit
 
-The Central Processor Unit, often known as the processor, is the brain of the computer and is in charge of carrying out the commands from the software you use. For beginners, the Intel Core i3 or an equivalent processor is a suitable option because it offers sufficient processing power to accomplish the majority of programming jobs without being expensive.
+The Central Processor Unit, often known as the processor, is the brain of the computer and is in charge of carrying out the commands from the software you use. For beginners, the Intel Core i7 or an equivalent processor is a suitable option because it offers sufficient processing power to accomplish the majority of programming jobs without being expensive.
 
 ### GPU - Graphics Processing Unit
 
@@ -40,6 +40,17 @@ You can view your programming projects and code on the display. For the majority
 ### Operating System
 
 The software that controls the hardware of the computer and offers a platform for running programmes is known as the operating system. Linux, macOS, and Windows 10 are all excellent options for programmers, but each has pros and cons of its own. The most extensively used operating system in the business is Windows. Developers that favour a Unix-based environment are fond of macOS. Developers that want an open-source environment and need greater system control frequently use Linux.
+
+### Summary
+
+| Component         | Minimum                  | Recommended              |
+|-------------------|-------------------------------|------------------------------|
+| CPU               | Intel Core i3 or equivalent    | Intel Core i7 or equivalent   |
+| GPU               | Integrated Graphics            | Integrated Graphics           |
+| RAM               | 4GB or more                    | 8GB or more                   |
+| Storage           | SSD with 128GB storage         | SSD with 128GB storage or more |
+| Display           | 14-inch, 1280 x 720 resolution | 14-inch, 1920 x 1080 resolution |
+| Operating System  | Windows, macOS, Linux          | Windows 10, macOS, Linux      |
 
 ### That's It!
 
