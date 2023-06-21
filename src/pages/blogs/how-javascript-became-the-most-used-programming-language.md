@@ -1,6 +1,6 @@
 ---
 title: How JavaScript Became the Most Used Programming Language
-description: "Whether you love it or hate it, JavaScript is an essential component of contemporary web development. It serves as the binding agent "
+description: "Whether you love it or hate it, JavaScript is an essential component of contemporary web development. It serves as the binding agent... "
 author: Anav
 date: Jun 18, 2023
 time: 4.5 mins
@@ -15,6 +15,7 @@ load: /img/14sm.jpg
 alt: javascript
 keywords: JavaScript, programming language, web development, evolution, interactivity, libraries, frameworks, tools
 pageDescription: Explore the evolution of JavaScript from its humble beginnings to becoming the most widely used programming language in web development.
+draft: false
 ---
 Whether you love it or hate it, JavaScript is an essential component of contemporary web development. It serves as the binding agent for the sophisticated web applications and responsive designs that have become a part of our dzaily lives. However, did you know that this powerful language's original name was "Mocha" and that it was created in just 10 days? Yes, JavaScript has advanced significantly since its early days in 1995. So relax and grab a cup of coffee—or a mocha, if you're in the mood for nostalgia—and join us as we travel back in time to examine the development of this
 

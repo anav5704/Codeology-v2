@@ -53,7 +53,12 @@
           "isPreviewImage": true
         },
         {
-          "title": "alt text",
+          "title": "Blur Load Image",
+          "name": "load",
+          "type": "image"
+        },
+        {
+          "title": "Alt text",
           "name": "alt",
           "type": "string"
         },
@@ -66,6 +71,11 @@
           "title": "Meta Description",
           "name": "pageDescription",
           "type": "string"
+        },
+        {
+          "title": "Draft",
+          "name": "draft",
+          "type": "draft"
         }
       ]
     }
@@ -76,12 +86,12 @@
   "frontMatter.preview.host": "http://localhost:3000",
   "frontMatter.content.pageFolders": [
     {
-      "title": "img",
-      "path": "[[workspace]]/public/img"
+        "title": "Blog Post",
+        "path": "[[workspace]]/src/pages/blogs"
     },
     {
-      "title": "blogs",
-      "path": "[[workspace]]/src/pages/blogs"
+      "title": "img",
+      "path": "[[workspace]]/public/img"
     }
   ],
   "frontMatter.taxonomy.tags": [
