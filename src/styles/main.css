@@ -269,6 +269,27 @@ th {
    aspect-ratio: 3/1;
 }
 
+.new {
+    position:relative
+}
+
+.new:before {
+    position:absolute;
+    padding: 5px 10px;
+    background-color: white;
+    content: "New";
+    top: 0;
+    left: 0;
+    display:grid;
+    border-bottom-right-radius: 5px;
+    place-content:center;
+}
+
+.dark .new:before {
+    color: white;
+    background-color: var(--CGray);
+}
+
 @keyframes lightLoad {
     0% {
         background-color: rgba(0, 0, 0, 0);

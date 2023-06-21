@@ -1,0 +1,132 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "VS Code Quiz";
+
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="CSS quiz, interactive quiz, web development, styling quiz, CSS3, selectors, box model, responsive design, frontend development, online quiz"
+description="Put your CSS skills to the test with this interactive quiz! Dive into a series of questions designed to evaluate your knowledge of CSS3, selectors, the box model, responsive design, and more. This web development quiz is perfect for frontend developers and aspiring web designers looking to enhance their styling expertise. Join this engaging online quiz to gauge your proficiency in CSS and discover areas for improvement. Take the CSS quiz now and level up your web development skills!"
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} 💻</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. What is the keyboard shortcut to go to the definition of a function or variable in Visual Studio Code?</p>
+                    <button>F12</button>
+                    <button>Ctrl + D</button>
+                    <button>Alt + F9</button>
+                    <button id="ans">Ctrl + Click</button>
+                    <p class="question">2. Which key combination is used to open the integrated terminal in Visual Studio Code?</p>
+                    <button>Ctrl + Shift + T</button>
+                    <button id="ans">Ctrl + `</button>
+                    <button>Ctrl + T</button>
+                    <button>Alt + T</button>
+                    <p class="question">3. Which extension is used for JavaScript files in Visual Studio Code?</p>
+                    <button id="ans">.js</button>
+                    <button>.javascript</button>
+                    <button>.code</button>
+                    <button>.jsx</button>
+                    <p class="question">4. How can you quickly format your code in Visual Studio Code?</p>
+                    <button>Right-click and select "Format Code"</button>
+                    <button>Press F5 key</button>
+                    <button id="ans">Press Ctrl + Shift + F</button>
+                    <button>Press Ctrl + B</button>
+                    <p class="question">5. What is the command palette in Visual Studio Code used for?</p>
+                    <button id="ans">Accessing a list of installed extensions</button>
+                    <button>Changing the color theme</button>
+                    <button>Managing Git repositories</button>
+                    <button>Running code snippets</button>
+                    <p class="question">6. Which file is used to configure Visual Studio Code settings on a workspace level?</p>
+                    <button>.settings</button>
+                    <button>.config</button>
+                    <button id="ans">.vscode</button>
+                    <button>.code</button>
+                    <p class="question">7. Which feature of Visual Studio Code allows you to track changes made to a file over time?</p>
+                    <button id="ans">Git integration</button>
+                    <button>Code snippets</button>
+                    <button>IntelliSense</button>
+                    <button>Debugging</button>
+                    <p class="question">8. What is the purpose of the "Explorer" view in Visual Studio Code?</p>
+                    <button>Writing code</button>
+                    <button id="ans">Viewing and managing files in your workspace</button>
+                    <button>Running tests</button>
+                    <button>Debugging code</button>
+                    <p class="question">9. Which key combination is used to comment/uncomment a line of code in Visual Studio Code?</p>
+                    <button id="ans">Ctrl + /</button>
+                    <button>Ctrl + ;</button>
+                    <button>Ctrl + \</button>
+                    <button>Ctrl + #</button>
+                    <p class="question">10. What is the recommended file structure for a Visual Studio Code project?</p>
+                    <button>Flat structure (all files in one folder)</button>
+                    <button id="ans">Hierarchical structure (multiple folders and subfolders)</button>
+                    <button>Random structure (no specific organization)</button>
+                    <button>It doesn't matter</button>
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script>
+
+    let score1 = 0; // score for quiz 1
+    const incorrectPenalty = 1;
+    const quiz1Elements = document.querySelectorAll("#quiz1"); // select elements for quiz 1
+    const comment = document.getElementById("comment")
+    const score = document.getElementById("score")
+
+    quiz1Elements.forEach(function(parentElement) { // loop through quiz 1 elements
+  const allChildren = parentElement.querySelectorAll("button");
+
+  allChildren.forEach(function (child) {
+    child.addEventListener('click', function() {
+      if (child.hasAttribute('id') ) {
+        child.style.border = "2px solid lime";
+        score1 += 1; // increment score for quiz 1 if answer is correct
+        child.disabled = true
+    } 
+    
+    else {
+        child.style.border = "2px solid red";
+        score1 = Math.max(0, score1 - incorrectPenalty);
+        child.disabled = true
+      }
+
+      if ( score1 == 0) {
+        comment.innerHTML = "Rome wasn't built in a day 🗿, better luck next time my friend.";
+      }
+
+      else if (score1 < 0 || score1 <= 4){
+        comment.innerHTML = "There is still room for improvement 👍. Keep pushing!";
+      }
+
+      else if (score1 < 5 || score1 <= 9){
+        comment.innerHTML = "You performed really well 👌. Continue learning more!";
+      }
+
+      else {
+            comment.innerHTML = "Perfectoin 🤌, as expected from  a Codeology.net user!";
+      }
+      score.innerHTML = score1.toString();
+      console.log("Score for Quiz 1: " + score1); // log current score for quiz 1
+    });
+  });
+});
+
+</script>
+
+
+

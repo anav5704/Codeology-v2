@@ -1,0 +1,136 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "Pragramming Quiz";
+
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="CSS quiz, interactive quiz, web development, styling quiz, CSS3, selectors, box model, responsive design, frontend development, online quiz"
+description="Put your CSS skills to the test with this interactive quiz! Dive into a series of questions designed to evaluate your knowledge of CSS3, selectors, the box model, responsive design, and more. This web development quiz is perfect for frontend developers and aspiring web designers looking to enhance their styling expertise. Join this engaging online quiz to gauge your proficiency in CSS and discover areas for improvement. Take the CSS quiz now and level up your web development skills!"
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} 🤖</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. What is the purpose of a variable in programming?</p>
+                    <button id="ans">To store and manipulate data</button>
+                    <button>To control program flow</button>
+                    <button>To define functions</button>
+                    <button>To generate random numbers</button>
+                    <p class="question">2. What is the output of the following code snippet in Python?</p>
+<pre is:raw ><code><span class="line">x = 10</span>
+<span class="line">y = 5</span>
+<span class="line">print(x % y)</span>    
+</code></pre>
+                    <button>10</button>
+                    <button>5</button>
+                    <button>0</button>
+                    <button id="ans">2</button>
+                    <p class="question">3. In object-oriented programming, what is encapsulation?</p>
+                    <button>The process of creating multiple instances of an object</button>
+                    <button id="ans">The process of hiding internal implementation details and providing a public interface</button>
+                    <button>The process of converting source code into machine code</button>
+                    <button>The process of handling exceptions and errors</button>
+                    <p class="question">4. What is the time complexity of searching for an element in a balanced binary search tree?</p>
+                    <button>O(n)</button>
+                    <button id="ans">O(log n)</button>
+                    <button>O(n log n)</button>
+                    <button>O(1)</button>
+                    <p class="question">5. Which keyword is used to declare a constant variable in many programming languages?</p>
+                    <button>var</button>
+                    <button>let</button>
+                    <button id="ans">const</button>
+                    <button>final</button>
+                    <p class="question">6. What does the acronym "HTML" stand for?</p>
+                    <button id="ans">HyperText Markup Language</button>
+                    <button>Hyperlink and Text Markup Language</button>
+                    <button>Home Tool Markup Language</button>
+                    <button>HyperText Model Language</button>
+                    <p class="question">7. What is the purpose of the "else" statement in an "if-else" statement?</p>
+                    <button>To execute a block of code only if a condition is true</button>
+                    <button>To specify an alternative condition to check</button>
+                    <button id="ans">To execute a block of code when no other conditions are met</button>
+                    <button>To define a loop construct</button>
+                    <p class="question">8. What does the term "DRY" stand for in programming?</p>
+                    <button id="ans">Don't Repeat Yourself</button>
+                    <button>Document, Review, Yield</button>
+                    <button>Data Recovery Yield</button>
+                    <button>Debug, Run, Yield</button>
+                    <p class="question">9. In object-oriented programming, what is inheritance?</p>
+                    <button>The process of creating multiple instances of an object</button>
+                    <button>The process of hiding internal implementation details and providing a public interface</button>
+                    <button id="ans">The process of reusing code from an existing class and extending its functionality</button>
+                    <button>The process of converting source code into machine code</button>
+                    <p class="question">10. Which programming language is often used for developing mobile applications?</p>
+                    <button>Java</button>
+                    <button>Python</button>
+                    <button>C++</button>
+                    <button id="ans">Swift</button>
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script>
+
+    let score1 = 0; // score for quiz 1
+    const incorrectPenalty = 1;
+    const quiz1Elements = document.querySelectorAll("#quiz1"); // select elements for quiz 1
+    const comment = document.getElementById("comment")
+    const score = document.getElementById("score")
+
+    quiz1Elements.forEach(function(parentElement) { // loop through quiz 1 elements
+  const allChildren = parentElement.querySelectorAll("button");
+
+  allChildren.forEach(function (child) {
+    child.addEventListener('click', function() {
+      if (child.hasAttribute('id') ) {
+        child.style.border = "2px solid lime";
+        score1 += 1; // increment score for quiz 1 if answer is correct
+        child.disabled = true
+    } 
+    
+    else {
+        child.style.border = "2px solid red";
+        score1 = Math.max(0, score1 - incorrectPenalty);
+        child.disabled = true
+      }
+
+      if ( score1 == 0) {
+        comment.innerHTML = "Rome wasn't built in a day 🗿, better luck next time my friend.";
+      }
+
+      else if (score1 < 0 || score1 <= 4){
+        comment.innerHTML = "There is still room for improvement 👍. Keep pushing!";
+      }
+
+      else if (score1 < 5 || score1 <= 9){
+        comment.innerHTML = "You performed really well 👌. Continue learning more!";
+      }
+
+      else {
+            comment.innerHTML = "Perfectoin 🤌, as expected from  a Codeology.net user!";
+      }
+      score.innerHTML = score1.toString();
+      console.log("Score for Quiz 1: " + score1); // log current score for quiz 1
+    });
+  });
+});
+
+</script>
+
+
+
