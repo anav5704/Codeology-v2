@@ -21,10 +21,10 @@
     }
 
     @font-face {
-        font-family: League Spartan;
+        font-family: Code;
         font-weight: 400;
         font-display: swap;
-        src: url(/fonts/LeagueSpartan-Bold.woff) format("woff");
+        src: url(/fonts/SourceCodePro.ttf) format("truetype");
       }
       
       .btn{
@@ -167,6 +167,10 @@ pre {
     word-wrap: break-word;
 }
 
+code span{
+    font-family: 'Code', monospace;
+}
+
 .details {
     padding: 10px;
 }
@@ -281,7 +285,7 @@ th {
     top: 0;
     left: 0;
     display:grid;
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 6px;
     place-content:center;
 }
 
