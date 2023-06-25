@@ -2,19 +2,19 @@
 title: Must Know JavaScript tips and Tricks For Newbies
 description: JavaScript is a powerful programming language that gives programmers the ability to build interactive and dynamic online applications. This blog post...
 author: Anav
-date: Jun 22, 2023
+date: Jun 25, 2023
 time: ""
 tags:
   - All
   - JavaScript
   - Latest
 layout: ../../layouts/blog.astro
-image: "/img/15.jpg"
-load: "/img/15sm.jpg"
+image: /img/15.jpg
+load: /img/15sm.jpg
 alt: javascript
 keywords: JavaScript, programming language, interactive applications, dynamic applications, coding tips, JavaScript beginners, data types, conditional statements, loops, built-in methods, problem-solving, template literals
 pageDescription: "Are you new to JavaScript? This blog post provides ten beginner-friendly JavaScript hints and tips to sharpen your coding abilities. "
-draft: true
+draft: false
 ---
 
 JavaScript is a powerful programming language that gives programmers the ability to build interactive and dynamic online applications. This blog post is written for you if you're new to JavaScript and looking for advice to sharpen your coding abilities. Ten beginner-friendly JavaScript hints and tips will be covered together with thorough explanations and pertinent code samples. Let's start now!
