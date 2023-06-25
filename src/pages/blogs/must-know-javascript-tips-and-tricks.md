@@ -45,7 +45,7 @@ var x = 5;
 var numberOfStudents = 5;
 ```
 
-### 3. Understand data typesc
+### 3. Understand data types
 
 There are several different data types available in JavaScript, including objects, booleans, arrays, and strings. It is essential to know how to deal with different data kinds. Let's have a look at an array example:
 
