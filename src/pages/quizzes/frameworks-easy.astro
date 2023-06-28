@@ -1,0 +1,86 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "Frameworks Quiz";
+
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="Keyword Tag: frontend framework quiz, front-end development quiz, framework knowledge test, front-end technology assessment, web development quiz"
+description="Test your knowledge of frontend frameworks with our interactive quiz! Challenge yourself and see how well you understand front-end development concepts and popular frameworks. "
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} ⚒️</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                  
+                    <p class="question">1. Which framework is known for its virtual DOM and component-based architecture?</p>
+                    <button id="ans"> React</button>
+                    <button> Angular</button>
+                    <button> Vue.js</button>
+
+                    <p class="question">2. Which frontend framework was developed by Google?</p>
+                    <button> React</button>
+                    <button id="ans"> Angular</button>
+                    <button> Vue.js</button>
+
+                    <p class="question"3. >Which framework is often referred to as "the progressive JavaScript framework"?</p>
+                    <button> React</button>
+                    <button> Angular</button>
+                    <button id="ans"> Vue.js</button>
+
+                    <p class="question">4. Which framework uses the concept of "two-way data binding"?</p>
+                    <button> React</button>
+                    <button id="ans"> Angular</button>
+                    <button> Vue.js</button>
+
+                    <p class="question">5. Which frontend framework provides built-in state management through Redux?</p>
+                    <button id="ans"> React</button>
+                    <button> Angular</button>
+                    <button> Vue.js</button>
+
+                    <p class="question">6. Which frontend framework uses the concept of directives such as v-if and v-for?</p>
+                    <button> React</button>
+                    <button> Angular</button>
+                    <button id="ans"> Vue.js</button>
+
+                    <p class="question">7. Which frontend framework uses the concept of "directives" for extending HTML syntax?</p>
+                    <button> React</button>
+                    <button id="ans"> Angular</button>
+                    <button> Vue.js</button>
+
+                    <p class="question">8. Which framework is known for its simplicity and small learning curve?</p>
+                    <button> React</button>
+                    <button> Angular</button>
+                    <button id="ans"> Vue.js</button>
+
+                    <p class="question">9. Which frontend framework uses the concept of "components" for building user interfaces?</p>
+                    <button id="ans"> React</button>
+                    <button> Angular</button>
+                    <button> Vue.js</button>
+
+                    <p class="question">10. Which framework uses the concept of "dependency injection" for managing component dependencies?</p>
+                    <button> React</button>
+                    <button id="ans"> Angular</button>
+                    <button> Vue.js</button>
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script src="../../scripts/main.js"></script>
+
+
+

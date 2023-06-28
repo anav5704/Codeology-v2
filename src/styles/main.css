@@ -85,7 +85,6 @@
       .details img {
         @apply border-2 border-CCool dark:border-CWhite rounded-md
       }
-
 }
 
 :root {
