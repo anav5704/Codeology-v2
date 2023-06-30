@@ -2,7 +2,7 @@
 title: "JavaScript Arrow Functions Made Easy: A Guide to Clean Code"
 description: JavaScript is a flexible programming language that is always being improved to give developers a more streamlined and effective syntax. Arrow functions are...
 author: Anav
-date: Jun 23, 2023
+date: Jul 1, 2023
 time: 3 mins
 tags:
   - All
@@ -14,7 +14,7 @@ load: /img/16sm.jpg
 alt: arrow
 keywords: avaScript, Arrow Functions, Function Expressions, ES6, Programming Language
 pageDescription: Discover the power of JavaScript arrow functions and how they can simplify your coding tasks. Learn about the concise syntax, benefits.
-draft: true
+draft: null
 ---
 JavaScript is a flexible programming language that is always being improved to give developers a more streamlined and effective syntax. Arrow functions are one such element that has grown in prominence. We will examine JavaScript arrow functions in this essay geared for beginners, knowing their benefits and how they make coding chores easier. At the conclusion, you'll have the knowledge necessary to use arrow functions in your JavaScript projects.
 

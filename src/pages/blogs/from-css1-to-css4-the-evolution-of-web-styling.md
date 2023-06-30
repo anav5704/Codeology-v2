@@ -7,7 +7,6 @@ time: 3.5 mins
 tags:
   - All
   - CSS
-  - Latest
   - Webdev
 layout: ../../layouts/blog.astro
 image: /img/12.jpg
