@@ -1,0 +1,95 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "Backend Quiz";
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="backend development quiz, server-side development, quiz on backend development, programming languages"
+description="Put Your Backend Development Skills to the Test with Our Engaging Quiz! Dive into the world of server-side development and challenge yourself with our quiz on backend development"
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} 🔒</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. Which protocol is commonly used for client-server communication in backend development</p>
+                    <button> TCP</button>
+                    <button id="ans"> HTTP</button>
+                    <button> IP</button>
+                    <button> DNS</button>
+                  
+                    <p class="question">2. What does the acronym "SQL" stand for?</p>
+                    <button> Secure Query Language</button>
+                    <button> Server Quality Language</button>
+                    <button id="ans"> Structured Query Language</button>
+                    <button> System Query Language</button>
+                  
+                    <p class="question">3. Which database is commonly used in conjunction with the Node.js backend?</p>
+                    <button> MySQL</button>
+                    <button id="ans"> MongoDB</button>
+                    <button> SQLite</button>
+                    <button> PostgreSQL</button>
+                  
+                    <p class="question">4. What is the purpose of an API in backend development?</p>
+                    <button> To design user interfaces</button>
+                    <button> To handle database operations</button>
+                    <button id="ans"> To provide a communication interface between different software systems</button>
+                    <button> To optimize website performance</button>
+                  
+                    <p class="question">5. WWhat is the purpose of an ORM (Object-Relational Mapping) in backend developmen</p>
+                    <button> To secure backend APIs</button>
+                    <button> To handle user authentication</button>
+                    <button id="ans"> To map database tables to objects in code</button>
+                    <button> To optimize database queries</button>
+                  
+                    <p class="question">6. What is the role of a web server in backend development?</p>
+                    <button> Handling front-end HTML and CSS</button>
+                    <button> Storing and managing data</button>
+                    <button id="ans"> Processing user requests and delivering responses</button>
+                    <button> Designing user interfaces</button>
+                  
+                    <p class="question">7. Which of the following is a server-side framework for JavaScript?</p>
+                    <button> Angular</button>
+                    <button> React</button>
+                    <button> Vue.js</button>
+                    <button  id="ans"> Express.js</button>
+                  
+                    <p class="question">8. What does the term "CRUD" stand for in backend development?</p>
+                    <button id="ans"> Create, Read, Update, Delete</button>
+                    <button> Compile, Render, Utilize, Deploy</button>
+                    <button> Code, Run, Update, Debug</button>
+                    <button> Copy, Rename, Upload, Download</button>
+                  
+                    <p class="question">9. What is the purpose of using sessions in backend development?</p>
+                    <button> To authenticate and track user sessions</button>
+                    <button> To store data permanently in a database</button>
+                    <button id="ans"> To compress and optimize website assets</button>
+                    <button> To handle client-side rendering</button>
+                  
+                    <p class="question">10. Which of the following is a popular backend framework for Python?</p>
+                    <button id="ans"> Django</button>
+                    <button> Laravel</button>
+                    <button> Ruby on Rails</button>
+                    <button> Express.js</button>
+                  
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script src="../../scripts/main.js"></script>
+
+
+

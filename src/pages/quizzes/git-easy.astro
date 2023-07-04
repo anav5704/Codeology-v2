@@ -1,0 +1,94 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "Git Quiz";
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="git quiz, version control, quiz on git, git commands"
+description="Test Your Git Knowledge with Our Interactive Quiz! Explore the world of version control and challenge yourself with our quiz on Git. From basic concepts to advanced commands."
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} ✅</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. What is Git?</p>
+                    <button id="ans"> A version control system</button>
+                    <button> A programming language</button>
+                    <button> A web development framework</button>
+                    <button> A database management system</button>
+                  
+                    <p class="question">2. What is the command to initialize a new Git repository?</p>
+                    <button> git new</button>
+                    <button> git start</button>
+                    <button id="ans"> git init</button>
+                    <button> git create</button>
+                  
+                    <p class="question">3. What is the purpose of the "git add" command?</p>
+                    <button> To commit changes to the repository</button>
+                    <button> To create a new branch</button>
+                    <button> To merge branches</button>
+                    <button id="ans"> To add new files to the staging area</button>
+                  
+                    <p class="question">4. What is the command to create a new branch in Git?</p>
+                    <button> git branch</button>
+                    <button> git create-branch</button>
+                    <button id="ans"> git checkout -b</button>
+                    <button> git new-branch</button>
+                  
+                    <p class="question">5. How do you undo the last commit in Git?</p>
+                    <button id="ans"> git revert</button>
+                    <button> git undo-commit</button>
+                    <button> git reset HEAD</button>
+                    <button> git commit --undo</button>
+                  
+                    <p class="question">6. What does the "git clone" command do?</p>
+                    <button> Creates a new branch in the repository</button>
+                    <button id="ans"> Clones a remote repository to a local machine</button>
+                    <button> Commits changes to the repository</button>
+                    <button> Pushes changes to a remote repository</button>
+                  
+                    <p class="question">7. What is the purpose of the "git pull" command?</p>
+                    <button> Pushes changes to a remote repository</button>
+                    <button> Creates a new branch in the repository</button>
+                    <button> Reverts the last commit</button>
+                    <button id="ans"> Fetches and merges changes from a remote repository</button>
+                  
+                    <p class="question">8. How do you discard all local changes and revert to the last committed version in Git?</p>
+                    <button> git checkout -- .</button>
+                    <button> git discard</button>
+                    <button> git revert</button>
+                    <button id="ans"> git reset HEAD</button>
+                  
+                    <p class="question">9. What is the command to view the commit history in Git?</p>
+                    <button id="ans"> git log</button>
+                    <button> git history</button>
+                    <button> git show</button>
+                    <button> git status</button>
+                  
+                    <p class="question">10. What is the purpose of the "git push" command?</p>
+                    <button> Commits changes to the repository</button>
+                    <button id="ans"> Pushes changes to a remote repository</button>
+                    <button> Fetches changes from a remote repository</button>
+                    <button> Creates a new branch in the repository</button>
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script src="../../scripts/main.js"></script>
+
+
+

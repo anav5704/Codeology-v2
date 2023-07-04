@@ -1,0 +1,94 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "Performance Quiz";
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="web performance quiz, website performance, quiz on web performance, optimizing website speed"
+description="Test Your Knowledge with Our Web Performance Quiz! Discover the secrets to optimizing website speed and enhancing user experience. "
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} 🚦</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. What does the term "TTFB" stand for in web performance?</p>
+                    <button id="ans">Time to First Byte</button>
+                    <button>Total Time for Browser</button>
+                    <button>Test Time for Backend</button>
+                    <button>Time Taken for Buffering</button>
+                  
+                    <p class="question">2. Which technique is used to reduce the number of HTTP requests made by a web page?</p>
+                    <button>Minification</button>
+                    <button>Compression</button>
+                    <button>Caching</button>
+                    <button id="ans">Code splitting</button>
+                  
+                    <p class="question">3. What is the purpose of a Content Delivery Network (CDN) in web performance optimization?</p>
+                    <button>To enhance server security</button>
+                    <button>To improve website accessibility</button>
+                    <button>To optimize image loading</button>
+                    <button id="ans">To deliver website content quickly to users</button>
+                  
+                    <p class="question">4. Which file format is typically used for lossless image compression?</p>
+                    <button>JPEG</button>
+                    <button id="ans">PNG</button>
+                    <button>GIF</button>
+                    <button>SVG</button>
+                  
+                    <p class="question">5. What is the recommended file format for vector graphics on the web?</p>
+                    <button>JPEG</button>
+                    <button>PNG</button>
+                    <button>GIF</button>
+                    <button id="ans">SVG</button>
+                  
+                    <p class="question">6. Which attribute is used to indicate that a script should be executed after the page has finished parsing?</p>
+                    <button>async</button>
+                    <button id="ans">defer</button>
+                    <button>preload</button>
+                    <button>srcset</button>
+                  
+                    <p class="question">7. Which HTTP status code indicates a successful response?</p>
+                    <button id="ans">200</button>
+                    <button>404</button>
+                    <button>500</button>
+                    <button>302</button>
+                  
+                    <p class="question">8. What is the purpose of the "viewport" meta tag in HTML?</p>
+                    <button>To specify the character encoding of the document</button>
+                    <button>To define the language of the document</button>
+                    <button id="ans">To control the initial scale and dimensions of the viewport</button>
+                    <button>To provide a description of the document's content</button>
+                  
+                    <p class="question">9. Which CSS property is used to animate elements on a web page?</p>
+                    <button id="ans">transform</button>
+                    <button>opacity</button>
+                    <button>display</button>
+                    <button>visibility</button>
+                  
+                    <p class="question">10. Which performance metric measures the time it takes for a web page to become interactive?</p>
+                    <button>First Paint (FP)</button>
+                    <button>First Contentful Paint (FCP)</button>
+                    <button id="ans">Time to Interactive (TTI)</button>
+                    <button>First Meaningful Paint (FMP)</button> 
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script src="../../scripts/main.js"></script>
+
+
+

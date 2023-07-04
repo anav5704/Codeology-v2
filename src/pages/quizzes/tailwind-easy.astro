@@ -1,0 +1,92 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "TailwindCSS Quiz";
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="Tailwind CSS quiz, CSS framework, quiz on Tailwind CSS, front-end development"
+description="Put Your Tailwind CSS Skills to the Test with Our Engaging Quiz! Dive into the world of Tailwind CSS and challenge yourself with our quiz on this popular CSS framework."
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} 💨</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. Which of the following best describes Tailwind CSS?</p>
+                    <button id="ans"> A utility-first CSS framework</button>
+                    <button> A JavaScript framework</button>
+                    <button> A front-end JavaScript library</button>
+                    <button> A server-side programming language</button>
+                  
+                    <p class="question">2. Which class can you use to apply a responsive padding of 4 units on all sides of an element?</p>
+                    <button> .padding-4</button>
+                    <button> .responsive-p-4</button>
+                    <button id="ans"> .p-4</button>
+                    <button> .px-4</button>
+                  
+                    <p class="question">3. True or False: Tailwind CSS provides built-in support for CSS grid layouts.</p>
+                    <button id="ans"> True</button>
+                    <button> False</button>
+                  
+                    <p class="question">4. Which class can you use to make an element's text align to the center?</p>
+                    <button> .align-center</button>
+                    <button id="ans"> .text-center</button>
+                    <button> .text-middle</button>
+                    <button> .center-text</button>
+                  
+                    <p class="question">5. How can you apply a responsive font size of 18 pixels to an element in Tailwind CSS?</p>
+                    <button> .font-18</button>
+                    <button> .text-18</button>
+                    <button> .text-base</button>
+                    <button id="ans"> .text-lg</button>
+                  
+                    <p class="question">6. Which class can you use to create a flex container in Tailwind CSS?</p>
+                    <button> .flex-container</button>
+                    <button> .flexbox</button>
+                    <button> .flex-row</button>
+                    <button id="ans"> .flex</button>
+                  
+                    <p class="question">7. How can you apply a background color of red to an element using Tailwind CSS?</p>
+                    <button> .bg-red</button>
+                    <button id="ans"> .bg-red-500</button>
+                    <button> .background-red</button>
+                    <button> .bg-color-red</button>
+                  
+                    <p class="question">8. What is the purpose of the "hover" variant in Tailwind CSS?</p>
+                    <button> It applies styles when an element is clicked.</button>
+                    <button> It applies styles when an element is focused.</button>
+                    <button id="ans"> It applies styles when an element is hovered over.</button>
+                    <button> It applies styles when an element is in an active state.</button>
+                  
+                    <p class="question">9. How can you apply a custom font to an element in Tailwind CSS?</p>
+                    <button> Use the <font> tag in HTML.</button>
+                    <button id="ans"> Use the @font-face rule in CSS.</button>
+                    <button> Add the font URL as a value for the "font" property.</button>
+                    <button> Use the .font-custom class in Tailwind CSS.</button>
+                  
+                    <p class="question">10. What is the purpose of the "lg" suffix in class names like "text-lg" or "px-lg"?</p>
+                    <button id="ans"> It stands for "large" and applies styles for large sizing.</button>
+                    <button> It stands for "long" and applies styles for long blocks of text.</button>
+                    <button> It stands for "left" and applies styles for left-aligned elements.</button>
+                    <button> It stands for "light" and applies styles for light-colored backgrounds.</button>
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script src="../../scripts/main.js"></script>
+
+
+

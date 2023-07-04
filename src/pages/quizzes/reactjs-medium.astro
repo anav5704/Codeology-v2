@@ -1,0 +1,96 @@
+---
+import Base from "../../layouts/Base.astro";
+import Featured from "../../components/Featured.astro";
+import '../../styles/main.css';
+const heading = "React JS Quiz";
+---
+
+<Base 
+title={`${heading} | Codeology`}
+keywords="React JS quiz, JavaScript framework, quiz on React JS, front-end development"
+description="https://chat.openai.com/c/3a9416b4-8d9d-4c7c-8ec2-36bc9fbc4b17#:~:text=Test%20Your%20React%20JS%20Skills%20with%20Our%20Engaging%20Quiz!%20Explore%20the%20powerful%20world%20of%20React%20JS%20and%20challenge%20yourself%20with%20our%20quiz%20on%20this%20popular%20JavaScript%20framework."
+>
+    <main class="">
+        <div class="md:w-3/4 w-full ">
+            <h3 class="header">{heading} ⚛️</h3>
+            <div class="blogcard" id="quiz1">
+                <div class="details quiz">
+                    <p class="question">1. What is React.js?</p>
+                    <button> A programming language</button>
+                    <button> A server-side framework</button>
+                    <button id="ans"> A front-end JavaScript library</button>
+                    <button> A database management system</button>
+                  
+                    <p class="question">2. What does JSX stand for in React.js?</p>
+                    <button  id="ans"> JavaScript XML</button>
+                    <button> Java Standard Extension</button>
+                    <button> JavaScript XHR</button>
+                    <button> Java Syntax Extension</button>
+                  
+                    <p class="question">3. Which of the following is NOT a React.js lifecycle method?</p>
+                    <button> componentDidMount</button>
+                    <button> componentDidUpdate</button>
+                    <button> componentWillMount</button>
+                    <button id="ans"> componentWillRender</button>
+                  
+                    <p class="question">4. What is the purpose of state in React.js?</p>
+                    <button> To manage the appearance of the user interface</button>
+                    <button id="ans"> To store and manage data that can change over time</button>
+                    <button> To define the layout and styling of components</button>
+                    <button> To handle user interactions with the application</button>
+                  
+                    <p class="question">5. What is the role of props in React.js?</p>
+                    <button> To handle component state changes</button>
+                    <button id="ans"> To pass data from parent components to child components</button>
+                    <button> To manage the routing and navigation in an application</button>
+                    <button> To define the structure and layout of a component</button>
+                  
+                    <p class="question">6. Which of the following is the correct way to render a React component?</p>
+                    <button id="ans"> ReactDOM.render(&lt/App /&gt, document.getElementById('root'));</button>
+                    <button> React.render(App, document.getElementById('root'));</button>
+                    <button> ReactDOM.render(App, document.getElementById('root'));</button>
+                    <button> React.render(&ltAapp /&gt, document.querySelector('root'));</button>
+                  
+                    <p class="question">7. What is the purpose of the key prop in React.js?</p>
+                    <button> To specify the component's position in the virtual DOM</button>
+                    <button> To handle user interactions with the component</button>
+                    <button id="ans"> To define the unique identifier for a component in an array</button>
+                    <button> To specify the CSS class for the component</button>
+                  
+                    <p class="question">8. What is the purpose of the shouldComponentUpdate lifecycle method in React.js?</p>
+                    <button> To update the component's state</button>
+                    <button id="ans"> To control when the component should re-render</button>
+                    <button> To handle errors during rendering</button>
+                    <button> To fetch data from an external API</button>
+                  
+                    <p class="question">9. What is the recommended way to manage form inputs in React.js?</p>
+                    <button id="ans"> By using the controlled component pattern</button>
+                    <button> By using regular HTML form elements</button>
+                    <button> By using JavaScript event listeners directly</button>
+                    <button> By using the useState hook for each input field</button>
+                  
+                    <p class="question">10. Which of the following is a React.js routing library?</p>
+                    <button id="ans"> React Router</button>
+                    <button> React Navigation</button>
+                    <button> React Route</button>
+                    <button> React Navigator</button>
+                </div>
+            </div>
+            <div class="blogcard">
+                <div class="details">
+                    <h3>Results:</h3>  
+                    <p>You scored a total of <span class="text-CBlue font-semibold" ><span id="score"></span> / 10</span> in the {heading}! <span id="comment"></span></p>
+                </div>
+            </div>
+
+        </div>
+        <Featured />
+    </main>
+</Base>
+
+<script src="../../scripts/main.js"></script>
+
+
+
+
+
