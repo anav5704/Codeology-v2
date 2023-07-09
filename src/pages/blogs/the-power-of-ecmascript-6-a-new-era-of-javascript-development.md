@@ -1,7 +1,7 @@
 ---
 title: "The Power of EcmaScript 6: A New Era of JavaScript"
 description: JavaScript has become an essential language for building dynamic and interactive web applications in the quick-paced world of web development...
-date: Jun 30, 2023
+date: Jul 10, 2023
 time: 3 mins
 tags:
   - All
@@ -13,7 +13,7 @@ load: /img/17sm.jpg
 alt: es6
 keywords: JavaScript ES6, EcmaScript 2015, web development, dynamic web applications, JavaScript enhancements, block-scoped variables, and more.
 pageDescription: Discover the power of JavaScript ES6 (EcmaScript 2015) and its impact on web development. Explore the new features and syntax improvements, such as block-scoped variables with let and const, arrow functions, e
-draft: true
+draft: false
 ---
 
 JavaScript has become an essential language for building dynamic and interactive web applications in the quick-paced world of web development. Due to its adaptability and widespread use, upgrades and enhancements are ongoing. The introduction of EcmaScript 6 (ES6), sometimes referred to as ECMAScript 2015, is a crucial turning point in JavaScript's development. The development of JavaScript was transformed by ES6's profusion of new features and syntax improvements, which allowed programmers to create code that was cleaner, shorter, and more expressive.
