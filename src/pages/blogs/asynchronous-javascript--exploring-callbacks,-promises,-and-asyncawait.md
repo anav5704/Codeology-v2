@@ -2,7 +2,7 @@
 title: "Asynchronous JavaScript:  Async/Await, Promises and More"
 description: Modern web development is dependent on asynchronous programming, which enables JavaScript to conduct time-consuming tasks without stopping...
 author: Anav
-date: Jun 30, 2023
+date: Jul 15, 2023
 time: 2.5 mins
 tags:
   - All
@@ -14,7 +14,7 @@ load: /img/18sm.jpg
 alt: asynchronous js
 keywords: Asynchronous JavaScript, Async/Await, Promises, Callbacks, modern web development, asynchronous programming, ES6, JavaScript enhancements.
 pageDescription: " Learn about the power of asynchronous JavaScript in modern web development. Explore callbacks, promises, and async/await."
-draft: true
+draft: false
 ---
 
 Modern web development is dependent on asynchronous programming, which enables JavaScript to conduct time-consuming tasks without stopping the main execution thread. Callbacks have often been the main method for controlling asynchronous actions. To handle asynchronous code, however, JavaScript developers now have more elegant and readable solutions thanks to Promises and async/await in ES6. The principles, use cases, and code samples for callbacks, promises, and async/await will all be covered in this article along with examples of how they work in practice.
