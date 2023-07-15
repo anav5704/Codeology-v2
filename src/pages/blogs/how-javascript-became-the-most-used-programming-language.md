@@ -7,7 +7,6 @@ time: 4.5 mins
 tags:
   - All
   - JavaScript
-  - Latest
   - Programming
 layout: ../../layouts/blog.astro
 image: /img/14.jpg

@@ -7,7 +7,6 @@ time: ""
 tags:
   - All
   - JavaScript
-  - Latest
 layout: ../../layouts/blog.astro
 image: /img/15.jpg
 load: /img/15sm.jpg
