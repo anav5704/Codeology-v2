@@ -2,7 +2,7 @@
 title: "Introduction to TypeScript: JavaScript with Superpowers"
 description: With more features and static typing capabilities, TypeScript has become a potent superset of JavaScript that improves developer productivity...
 author: Anav
-date: Jul 1, 2023
+date: Jul 22, 2023
 time: 3 mins
 tags:
   - All
@@ -14,7 +14,7 @@ load: /img/19sm.jpg
 alt: typescript
 keywords: TypeScript, JavaScript superset, static typing, developer productivity, code quality, maintainability, tooling, TypeScript syntax, advantages of TypeScript, type annotations, JavaScript compatibility, variable declarations, function declarations, interfaces, classes, generics, compiling TypeScript, TypeScript with popular JavaScript frameworks.
 pageDescription: Discover the power of TypeScript, a potent superset of JavaScript that enhances developer productivity, code quality, and more.
-draft: true
+draft: false
 ---
 
 With more features and static typing capabilities, TypeScript has become a potent superset of JavaScript that improves developer productivity, code quality, and maintainability. Because it was created by Microsoft, TypeScript gives the JavaScript ecosystem a strong type system and cutting-edge tooling. In this post, we'll examine TypeScript's salient characteristics and advantages, delve into its syntax, and offer code samples to illustrate its flexibility and power.
