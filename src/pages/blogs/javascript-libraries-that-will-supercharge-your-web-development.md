@@ -2,7 +2,7 @@
 title: JavaScript Libraries That Will Supercharge Your Websites
 description: JavaScript libraries have transformed web development by offering ready-made answers to frequent problems. We will look at ten exceptional JavaScript...
 author: Anav
-date: Jul 1, 2023
+date: Jul 29, 2023
 time: 4.5 mins
 tags: All
 layout: ../../layouts/blog.astro
@@ -11,7 +11,7 @@ load: /img/20sm.jpg
 alt: library
 keywords: JavaScript libraries, web development, sliders, animations, charts, tooltips, interactivity, user experience, Splide.js, Three.js, AOS, Anime.js, Chart.js, Dropzone.js, Hammer.js, SweetAlert2, Popper.js, CountUp.js.
 pageDescription: "Discover 10 exceptional JavaScript libraries that will supercharge your websites by providing a wide range of capabilities, including sliders, animations, charts, tooltips, and more. "
-draft: true
+draft: false
 ---
 
 JavaScript libraries have transformed web development by offering ready-made answers to frequent problems. We will look at ten exceptional JavaScript libraries in this article that offer a variety of capabilities, such as sliders, animations, charts, and tooltips. Through the addition of interactivity, aesthetic appeal, and fluid animations to your web apps, these libraries not only make development simpler but also improve the user experience. Let's start now!
