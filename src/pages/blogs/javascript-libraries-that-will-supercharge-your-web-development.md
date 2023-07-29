@@ -4,7 +4,10 @@ description: JavaScript libraries have transformed web development by offering r
 author: Anav
 date: Jul 29, 2023
 time: 4.5 mins
-tags: All
+tags:
+  - All
+  - JavaScript
+  - Latest
 layout: ../../layouts/blog.astro
 image: /img/20.jpg
 load: /img/20sm.jpg
