@@ -86,24 +86,12 @@
   "frontMatter.preview.host": "http://localhost:3000",
   "frontMatter.content.pageFolders": [
     {
-        "title": "Blog Post",
-        "path": "[[workspace]]/src/pages/blogs"
+      "title": "Blog Post",
+      "path": "[[workspace]]/src/pages/blogs"
     },
     {
       "title": "img",
       "path": "[[workspace]]/public/img"
     }
-  ],
-  "frontMatter.taxonomy.tags": [
-    "All",
-    "CSS",
-    "HTML",
-    "JavaScript",
-    "Latest",
-    "Programming",
-    "Study",
-    "UIUX",
-    "Webdev"
-  ],
-  "frontMatter.taxonomy.categories": []
+  ]
 }
