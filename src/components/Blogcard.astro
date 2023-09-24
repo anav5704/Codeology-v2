@@ -5,7 +5,7 @@ const {blog} = Astro.props;
 ---
 
 <div class="blogcard">
-    <a href={blog.url}>
+    <a href={blog.url} aria-label={`Read blog titled: ${blog.frontmatter.title}`}>
         <!-- <Image 
         src={blog.frontmatter.image}
         alt={blog.frontmatter.alt}
