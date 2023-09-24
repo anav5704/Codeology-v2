@@ -2,7 +2,7 @@
 title: "Elevate Your Design: The True Power of Tailwind CSS"
 description: Creating appealing and effective websites requires keeping up with innovation in the fast-paced world of web development...
 author: Anav
-date: Aug 18, 2023
+date: Sep 15, 2023
 time: 2.5 mins
 tags:
   - All
@@ -10,12 +10,12 @@ tags:
   - Latest
   - Frameworks
 layout: ../../layouts/blog.astro
-image: ""
-load: ""
-alt: ""
+image: /img/42.jpg
+load: /img/42sm.jpg
+alt: tailwind logo
 keywords: Tailwind CSS, web development, CSS framework, responsive design, utility classes, customization, web design, beginner-friendly, performance optimization, modern websites, coding efficiency.
 pageDescription: Discover the transformative world of Tailwind CSS as we delve into its efficiency, customization, and responsive design capabilities.
-draft: true
+draft: false
 ---
 
 Creating appealing and effective websites requires keeping up with innovation in the fast-paced world of web development. That's where the ground-breaking framework Tailwind CSS, which is creating waves, comes into play. In this post, we'll set out on a tour through the world of Tailwind CSS and explore the factors that led to it becoming the go-to option for developers and designers seeking a higher level of innovation and productivity.

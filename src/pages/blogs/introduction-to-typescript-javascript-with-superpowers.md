@@ -6,7 +6,6 @@ date: Jul 22, 2023
 time: 3 mins
 tags:
   - All
-  - Latest
   - JavaScript
 layout: ../../layouts/blog.astro
 image: /img/19.jpg

@@ -1,21 +1,21 @@
 ---
 title: Bootstrap vs. Tailwind CSS vs. Material-UI 5
-description: "Are you a web developer caught in the chaotic CSS landscape's shifting currents? You're in for a treat if so! We'll fight three powerful CSS frameworks..."
+description: Are you a web developer caught in the chaotic CSS landscape's shifting currents? You're in for a treat if so! We'll fight three powerful CSS frameworks...
 author: Anav
-date: Aug 18, 2023
-time: "3.5 mins"
+date: Sep 8, 2023
+time: 3.5 mins
 tags:
   - All
   - Frameworks
   - CSS
   - Latest
 layout: ../../layouts/blog.astro
-image: ""
-load: ""
-alt: ""
-keywords: "CSS frameworks, Bootstrap, Tailwind CSS, Material-UI 5, web development, front-end development, web design, responsive design, component libraries, design philosophy, Material Design, UI/UX, customization, code cleanliness, rapid styling."
+image: /img/41.jpg
+load: /img/41sm.jpg
+alt: bootstrap logo
+keywords: CSS frameworks, Bootstrap, Tailwind CSS, Material-UI 5, web development, front-end development, web design, responsive design, component libraries, design philosophy, Material Design, UI/UX, customization, code cleanliness, rapid styling.
 pageDescription: "Dive into the exciting world of web development as we compare three heavyweight CSS frameworks: Bootstrap, Tailwind CSS, and Material-UI 5."
-draft: True
+draft: false
 ---
 
 Are you a web developer caught in the chaotic CSS landscape's shifting currents? You're in for a treat if so! We'll fight three powerful CSS frameworks against one another in this exciting matchup: Bootstrap, Tailwind CSS, and the brand-new, glossy Material-UI 5. There is a conflict of aesthetics, a struggle of social classes, and a tussle of parts. Therefore, brace up as we plunge into the vibrant world of web design in this ultimate CSS showdown, dear reader!
