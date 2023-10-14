@@ -99,6 +99,7 @@
 
 * {
     -webkit-tap-highlight-color: transparent;
+    font-family: sans-serif;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;  
     transition: all .15s ease;

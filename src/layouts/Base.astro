@@ -18,6 +18,7 @@ import Footer from '../components/Footer.astro';
 		<link rel="icon" type="image/svg+xml" href="/img/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+
 	</head>
 	<body>
         <Card />
@@ -25,7 +26,6 @@ import Footer from '../components/Footer.astro';
 		<slot />
         <Footer />
         <script is:inline>
-
             if (sessionStorage.theme === 'dark' || (!('theme' in sessionStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {                document.documentElement.classList.add("dark");
                 document.getElementById("dark").style.display = "block"
                 sessionStorage.setItem("theme", "dark");
@@ -60,8 +60,6 @@ import Footer from '../components/Footer.astro';
                 document.getElementById("dark").style.display = ""
                 console.log("Light mode");
             }
-            
-
         </script>
 	</body>
 </html>
