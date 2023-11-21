@@ -10,5 +10,5 @@ This is a blogging website I had made which also has a section for web developme
 - Frontmatter CMS
 - Fiddle JS
 
-  ## Getting Started
+## Getting Started
 I wouldn't recommend using the code for this project as this was made with Astro v2 and at the moment they are v3+. If for some reason you want to, first, fork and clone the repo. No need to run ```npm install``` as the node modules are already here for some reason...Then run ```npm start``` to run the website on localhost.
