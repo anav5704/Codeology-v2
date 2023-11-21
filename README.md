@@ -6,7 +6,7 @@ This is a blogging website I had made which also has a section for web developme
 
 ## Technologies Used
 - Astro JS
-- TailwindCSS
+- TailwindCSS + Hero Icons
 - Frontmatter CMS
 - Fiddle JS
 
