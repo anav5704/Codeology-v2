@@ -10,7 +10,7 @@ This is a blogging website I had made which also has a section for web developme
 - Fiddle JS
 
 ## Getting Started
-I wouldn't recommend using the code for this project as this was made with Astro v2 and at the moment they are v3+. If for some reason you want to, first, fork and clone the repo. No need to run ```npm install``` as the node modules are already here for some reason...Then run ```npm start``` to run the website on localhost.
+First fork and clone the repo. Then run ```npm install``` to download all the dependencies. Once that is done, run ```npm start``` to view it on localhost.
 
 ## Learning Resources
 - [Everything you need to know about Astro](https://www.youtube.com/watch?v=rRxuVOutmFQ)
